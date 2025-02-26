@@ -1,0 +1,214 @@
+SCENE 53 - DREAM OF JOY 2 - NIGHT - JOY sees flashes of images of the things to come.
+
+
+
+POMPO
+
+
+JOY
+
+
+
+Hey joy
+
+
+
+check out the timeline
+
+
+
+add greys anatomy to the inspirition board
+
+
+
+5k words lasted 20-30 gameplay 12 hrs
+
+"-8 draft",
+
+
+3 act
+
+-8 draft
+2nd act, romance scene
+
+0th draft
+includes 2nd act
+
+final rough draft
+march 3
+
+
+romance scene
+
+
+
+
+
+logo
+team name change to joy
+
+need design docs
+
+
+design docs
+  team composition names
+  mechanics
+  story
+  art direction
+    clean, vector, painted, etc.
+
+
+non woke config
+
+
+GDC you can just buy a ticket... maybe thing
+
+
+in this narrative there are a few things I want to tackle:
+  branching story (to some extent)
+  compelling characters
+  a metacommentary
+  each minigame is used ONLY ONCE, similar to the mario concept where thye have unique power ups per world, fire flower, etc.
+
+
+renpy guides
+animation tools - https://www.youtube.com/watch?v=0VWV_610BPw
+screens - https://www.youtube.com/watch?v=R4Vvv_uapbk
+
+you play as joy, a young vet fresh out of university just starting out. the overall plot is, you start out, meet your coworkers, meet the customers, service their pets, some of them ask you out, you can ask them out, but none of that matters--in the end calamity hits and the clinic has to close. then when shes about to quit it all, a bird or something needs help and she deals with it at her house, she gets a call or something from one of the clients she serviced a while ago who loves animals, and you tell that young client about how COOl being a vet is just to be nice., or whatever. joy decides to keep at this vet thing forever, whether she decides to found her own vet clinic or join another one. she has found her soulmate, the joy of doing this vet thing.
+
+joy is her own character. the player is fighting with her as her subconcious. they like to talk to themself, calling herself "me". "stop doing that, me", "joy, you're a genius" "joy, you idiot, you did it again." joy is ultimately ALWAYS TRUE TO THEMSELF.
+
+
+characters:
+  JOY
+  RIVAL / HATE
+  dates
+  animals
+
+scenes:
+  restaurant
+  if you have a scene with a car, one could be outside of the car, the other inside, rather than the driving
+  bathroom w/ mirror, ramona
+
+
+pipeline is big story scenes first
+  delegate scenes to people to write the dialogue
+  get s
+
+
+no woke is just "every choice doesnt correlate"
+
+
+
+
+ui
+
+title page logo
+credits
+
+
+audio
+  animal crossing
+
+
+music
+  tim has finale
+
+
+what if we never see one
+  self own-scene where you actually have to treat the eagle, and you've never treated ANYTHING so trump was right to cut the funding because there are no animals anyways
+
+
+
+do we have a speedruning component and save the animal
+
+does customizing her hair make saving the eagle hard
+
+
+my problem is ultimately the subject matter. I can't personally get passionate about this character, but maybe I can... fuck me. we'll see.
+
+
+start with a dream sequence, they see flashing images of animals, the vet clinic she's going to, blurry images of her coworkers,
+
+
+
+characters:
+JOY: titular
+RIVAL: i might have called them boss a few times, probably a RIVAL
+FATEFUL ENCOUNTER CLIENT: client who you talk to a few times, inspire, deject, they inspire you back.
+
+
+
+
+ok little scenes:
+
+scene 1 - dream sequence, flashes of all possible futures
+
+scene 2 - wake up, wash your face, wipe the mirror, create your character (gender expressioned, gender expressionless, gender neutral expressioned, sex not even mentioned) [think winona in scott pilgrim netflix 2024]
+
+scene 3 - driving to the vet clinic, she thinks about how she thought the interview went too well, wonders what it'll be like
+
+scene 4 - she arrives at the clinic, meets RECEPTIONIST
+
+basically the place is a mess, its severely understaffed: https://www.reddit.com/r/VetTech/comments/1fyz04x/how_understaffed_is_your_clinic_currently_hiding/
+
+minigame: https://www.reddit.com/r/VetTech/comments/1itae3j/ear_cytology_help/
+
+i searched "understaffed vet hospital"
+
+lol this corporate mumbo jumbo https://vetsource.com/blog/5-time-saving-hacks-for-short-staffed-veterinary-practices/
+
+
+scene 10 -
+
+
+scene 60 - a FATEFUL ENCOUNTER with a young client, brings their cat, cat has a botfly hole in their chest, she explains what it could be, takes 1hr to deal with, the youg ? old? client leaves
+
+scene 64 - young client comes back, no animal, just wants to thank you, brings you a small thank you card. it brightens up your day. they ask if they can have your number to call for house visits, you decline because the company doesnt allow it. (THIS WILL COME BACK LATER) they ask about becoming a vet, you say its all great.
+
+
+scene 70 - client comes back just to talk, said they applied to vet school, you talk more real talk this time saying like its not glamorous. they leave feeling uneasy about the idea and dejected
+
+
+scene 75 - client comes back and "spits in your face" about your pessimism, saying they'll do it anyway. at this point you feel really low, things look bad for job, country, etc. and you really need to hear it, but it doesnt sink in.
+
+
+
+
+scene 80 - catastrophe, everyone is laid off--the VSGP funding was cut thanks to that fucking moron in the white house and his stooge. (this is my prediction of a TYPE of service they'll just cut)
+
+https://www.avma.org/news/millions-allocated-federal-veterinary-programs
+https://www.nifa.usda.gov/grants/programs/veterinary-services-grant-program
+
+The purpose of the Veterinary Services Grant Program (VSGP) is to relieve veterinarian shortage situations and support veterinary services. There are two types of grants for VSGP: Education, Extension, and Training (EET) and Rural Practice Enhancement (RPE).
+
+ There are two types of grants for VSGP: Education, Extension, and Training (EET) and Rural Practice Enhancement (RPE).
+The Education, Extension, and Training (EET) grants will be made available on a competitive basis to qualified entities to develop, implement, and sustain veterinary services through education, training, recruitment, placement, and retention of veterinarians, veterinary technicians, and students of veterinary medicine and veterinary technology. The Rural Practice Enhancement (RPE) grants will also be made to establish or expand veterinary practices in rural areas.
+
+The Veterinary Services Grant Program (VSGP) is authorized by the 2014 Farm Bill. Initial funding for the program, $2.5 million, was appropriated in the FY 2016 budget. VSGP now has $4 million in funding. The legislation emphasizes two areas: Education, Extension, and Training (EET) and Rural Practice Enhancement (RPE).
+
+scene 85 - crying, they dont understand, long political screed, i'm going to fucking kill them, etc.
+
+scene 86 - call comes from the boss, you ignore because you dont want to hear from them, they gave the news and were a trump supporter, that kind of shit.
+
+scene 87 - boss calls again, you ignore again
+
+scene 88 - boss says its that lady with the botfly cat, she's at the clinic right now begging me to get a hold of you (as i was locking up), she says there's an eagle on her porch, and she says she wants you. you in anger say, you go deal with it. boss says, no. she wants you, and i agree you're the best for the job--im driving to her house at whatever, i hope you'll come.
+
+scene 89 - you drive, lots of thoughts in your head
+
+scene 90 - you arrive, see your boss stabilizing the bird, you could do it with 2 people, but its really a 3 person job, so now you invite the client to join. together the 2 hold it down so it doesnt hurt itself more, then you grab its other wing and start operating. i dont fucking know how eagles work.
+
+scene 91 - minigame where you're trying to fix a broken bone
+
+scene 92 - your boss strikes up a conversation, says i can't believe this is happening, you say of course it is. boss asks what should I do, the client replies saying what you WISH you could say ot their face.
+the client says you fight it. fight for the least of us. fight not because you need it, fight because someone else does.
+
+scene 93 - the client says, thats why you came, looking at the boss or rival or whatever, youre fighting for this creature who can't fight for itself in this situation. you dont do it because you need it, you do it because they need it.
+
+scene 94 - joy finds her joy again. she proposes starting a clinic together. trump supporter and all.
+
+
+
+
