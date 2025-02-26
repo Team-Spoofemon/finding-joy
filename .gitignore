@@ -8,6 +8,7 @@ log.txt
 traceback.txt
 errors.txt
 *.rpyc
+game/saves/**
 
 
 # Byte-compiled / optimized / DLL files
