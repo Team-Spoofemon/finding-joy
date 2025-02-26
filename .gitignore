@@ -1,3 +1,15 @@
+# project specific
+**ignoreme**
+
+
+# ren'py specific
+lint.txt
+log.txt
+traceback.txt
+errors.txt
+*.rpyc
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
