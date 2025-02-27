@@ -3,12 +3,12 @@ A delightful visual novel about a veterinarian who meets colorful characters and
 
 
 # Contributors
-- Art 2D - Lee
-- Art 2D - Hannah
-- Programming - Leeann
-- Programming - Tim
-- Programming - Christian
-- Story, Project Architecture - Chris Carl
+- Lee - Art 2D
+- Hannah - Art 2D
+- Leeann - Programming
+- Christian - Programming
+- Tim - Music, Audio, Programming
+- Chris - Story, Architecture, Infrastructure, Programming
 
 
 # License

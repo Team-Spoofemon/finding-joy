@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("chriscarl_dev")
+define config.name = _("finding_joy")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -23,13 +23,14 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "1.0"
+define config.version = "0.0.0"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p("""
+hello world
 """)
 
 
@@ -37,7 +38,7 @@ define gui.about = _p("""
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "chriscarl_dev"
+define build.name = "finding_joy"
 
 
 ## Sounds and music ############################################################
@@ -62,7 +63,8 @@ define config.has_voice = True
 ## the player is at the main menu. This file will continue playing into the
 ## game, until it is stopped or another file is played.
 
-# define config.main_menu_music = "main-menu-theme.ogg"
+define config.main_menu_music = music_theme
+define config.main_menu_music_fadein = 0.5
 
 
 ## Transitions #################################################################
@@ -143,14 +145,14 @@ default preferences.afm_time = 15
 ## This generally should not be changed, and if it is, should always be a
 ## literal string, not an expression.
 
-define config.save_directory = "chriscarl_dev-1740528823"
+define config.save_directory = "finding_joy-1740528823"
 
 
 ## Icon ########################################################################
 ##
 ## The icon displayed on the taskbar or dock.
 
-define config.window_icon = "gui/window_icon.png"
+define config.window_icon = "gui/window_icon_joys.png"
 
 
 ## Build configuration #########################################################

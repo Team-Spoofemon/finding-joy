@@ -364,12 +364,12 @@ screen main_menu():
 
     if gui.show_name:
 
-        default scene_1_choice = data['scene_1']['choice']
+        default thechoice = data['act1_day1_scene_X']['choice']
         vbox:
             style "main_menu_vbox"
 
             text "she"
-            text "[scene_1_choice]"
+            text "[thechoice]"
 
             text "[config.name!t]":
                 style "main_menu_title"

@@ -1,4 +1,4 @@
 label start:
-    call scene_1
+    call act1_day1_scene_X
     # jump start  -- mungen loop
     return
