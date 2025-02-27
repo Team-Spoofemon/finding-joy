@@ -60,5 +60,5 @@ label .subscene_2:
 
     label .end:
         JOY "man am I glad i [choice]."
-        $ scene_1_choice = data['scene_1']['choice']
+        $ data['scene_1']['choice'] = scene_1_choice
         return
