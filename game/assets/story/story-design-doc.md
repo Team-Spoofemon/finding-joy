@@ -12,6 +12,9 @@
 - on compassion: the best of us can empathize with the other without lived experience
 - on lived experience: there is no better teacher than getting your face eaten by a leopard
 - ludonarative: you play as JOY's inner voice, but THEY are telling THEIR story. You're just a passenger. THEY are in control.
+- on gender and sex: (biological) sex is never mentioned, people just are as they are some characters present gender and some dont
+- on capitalism: everyone sucks because they're underpaid. its that simple.
+- on confidence: joy is her own character. the player is fighting with her as her subconcious. they like to talk to themself, calling herself "me". "stop doing that, me", "joy, you're a genius" "joy, you idiot, you did it again." joy is ultimately ALWAYS TRUE TO THEMSELF, even if they dont feel like it at the time.
 
 
 ## Perspective
@@ -36,11 +39,11 @@
 
 ## Settings
 - Story takes place during the summer in suburban Florida just outside of Orlando.
-- JOY_HOUSE
+- JOY_APARTMENT_INT
 - JOY_BATHROOM
 - PETCHEAP - a pet store that also has a clinic, staffed by 2 vets, 2 vet techs, 3 clerks, and 1 manager. Owned by Cheap-O Ultra Holdings Company or (CUHK for short)
-    - PETCHEAP_FRONT_DESK
-    - PETCHEAP_OPERATING_TABLE
+- PETCHEAP_FRONT_DESK - a receptionist desk
+- PETCHEAP_OPERATING_TABLE - a room inside the store where animal patients are treated
 - DINER - a diner chain sit-down restaurant
 - CAFE - a locally owned coffee shop
 
@@ -98,6 +101,8 @@ when shes about to quit it all, a bird or something needs help and she deals wit
         - SCENE 2 - JOY talks to FAITH who is interested in becoming a veterinarian, gets interrupted by IDIOT who brings a his dog who has swallowed an action figure
             - MINIGAME 6: pump the dog's belly until the action figure gets loose
         - SCENE 3 - JOY asks POMPO to restock some stuff, and they talk for a bit
+
+
 - ACT 2
     - day otherstuff
     lots more of the same, more scenes with the rest of the characters, have a contemplative scene with GLASHA, etc. BOSS comes in, leaves a nasty impression on you because they're required to inspect their own franchise
@@ -125,78 +130,11 @@ when shes about to quit it all, a bird or something needs help and she deals wit
 
 
 
-I wonder if there's a "blah blah blah" minigame that can be done where the goal is to remove as many words coming in as possible so that it goes in one ear and out comes blah blah blah on the other... so you just have to keep up with the words and erasing them and nod your head form time to time.
 
-
-
-
-in this narrative there are a few things I want to tackle:
-
-
-
-
-
-joy is her own character. the player is fighting with her as her subconcious. they like to talk to themself, calling herself "me". "stop doing that, me", "joy, you're a genius" "joy, you idiot, you did it again." joy is ultimately ALWAYS TRUE TO THEMSELF.
-
-
-
-
-scenes:
-    restaurant
-    if you have a scene with a car, one could be outside of the car, the other inside, rather than the driving
-    bathroom w/ mirror, ramona
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-my problem is ultimately the subject matter. I can't personally get passionate about this character, but maybe I can... fuck me. we'll see.
 
 
 start with a dream sequence, they see flashing images of animals, the vet clinic she's going to, blurry images of her coworkers,
 
-
-
-
-
-Need the overall story
-
-
-
-ok little scenes:
-
-scene 1 - dream sequence, flashes of all possible futures
-
-scene 2 - wake up, wash your face, wipe the mirror, create your character (gender expressioned, gender expressionless, gender neutral expressioned, sex not even mentioned) [think winona in scott pilgrim netflix 2024]
-
-scene 3 - driving to the vet clinic, she thinks about how she thought the interview went too well, wonders what it'll be like
-
-scene 4 - she arrives at the clinic, meets RECEPTIONIST
-
-basically the place is a mess, its severely understaffed: https://www.reddit.com/r/VetTech/comments/1fyz04x/how_understaffed_is_your_clinic_currently_hiding/
-
-minigame: https://www.reddit.com/r/VetTech/comments/1itae3j/ear_cytology_help/
-
-i searched "understaffed vet hospital"
-
-lol this corporate mumbo jumbo https://vetsource.com/blog/5-time-saving-hacks-for-short-staffed-veterinary-practices/
-
-
-scene 10 -
-
-SCENE 53 - DREAM OF JOY 2 - NIGHT - JOY sees flashes of images of the things to come.
 
 
 scene 60 - a FATEFUL ENCOUNTER with a young client, brings their cat, cat has a botfly hole in their chest, she explains what it could be, takes 1hr to deal with, the youg ? old? client leaves
