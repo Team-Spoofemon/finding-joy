@@ -2,6 +2,12 @@
 **ignoreme**
 
 
+# microsoft office crap
+**/~*.odt
+**/~*.docx
+**/~*.tmp
+
+
 # ren'py specific
 lint.txt
 log.txt
