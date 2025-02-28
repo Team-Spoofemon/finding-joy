@@ -1,10 +1,10 @@
 # Names
-- Lee - Art 2D
-- Hannah - Art 2D
-- Leeann - Programming
+- [Lee](https://www.linkedin.com/in/yo-lee-gorman-5415b5212) - Art 2D
+- [Hannah](https://www.linkedin.com/in/hannah-fu-08a0a8227) - Art 2D
+- [Leeann](https://www.linkedin.com/in/leeann-gaona-001a9424a) - Programming
 - Christian - Programming
-- Tim - Music, Audio, Programming
-- Chris - Story, Architecture, Infrastructure, Programming
+- [Tim C](https://www.linkedin.com/in/timcarrizales) - Music, Audio, Programming
+- [Chris](https://www.linkedin.com/in/chris-carl) - Story, Architecture, Infrastructure, Programming
 
 # Disciplines
 
