@@ -93,18 +93,23 @@ when shes about to quit it all, a bird or something needs help and she deals wit
         - SCENE 6 - JOY is distraught, KELLY is aloof, POMPO makes an unfunny joke about another one bites the dust or something, GLASHA comes in to relieve JOY who goes home
         - SCENE 7 - JOY talks to herself, and she's shaken just how matter of fact things are.
     - DAY 3
-        - FAITH comes and its nice
-        - IDIOT comes in
-        - ZU comes in
-        - POMPO asks you out
-        - you reject
+        - SCENE 1 - JOY services FAITH who comes in with her cat who has a botfly infection
+            - MINIGAME 5: The botfly is loose and you have to shoot it
+        - SCENE 2 - JOY talks to FAITH who is interested in becoming a veterinarian, gets interrupted by IDIOT who brings a his dog who has swallowed an action figure
+            - MINIGAME 6: pump the dog's belly until the action figure gets loose
+        - SCENE 3 - JOY asks POMPO to restock some stuff, and they talk for a bit
 - ACT 2
+    - day otherstuff
     lots more of the same, more scenes with the rest of the characters, have a contemplative scene with GLASHA, etc. BOSS comes in, leaves a nasty impression on you because they're required to inspect their own franchise
     FAITH comes in again asks about the job its middling reply
     you get dating requests, if one goes well you get a sex scene, etc. maybe the other is going to the bar and you get sexy time in the alleyway behind the bar, i dont know
     FAITH comes in again asks about the job, its somewhat reply
     more animals die
     even the romance isnt enough
+    - Day something
+        - SCENE 4 - JOY gets asked out by POMPO
+        - SCENE 5 - JOY and POMPO get out on a date and POMPO gets rejected
+        - SCENE 6 - JOY is frustrated and gives herself a pep talk at home
 
 - ACT 3
     trump gets elected
@@ -116,6 +121,7 @@ when shes about to quit it all, a bird or something needs help and she deals wit
     joy contemplates ending things
     POMPO calls, leaves a voicemail, keeps calling, keeps texting, you pick up and then go save the eagle, find your passion
     call up eveyrone if they want to make their own shop, so they buy up the old shop again.
+
 
 
 
