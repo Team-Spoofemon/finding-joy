@@ -1,6 +1,11 @@
 # project specific
 **ignoreme**
+
+
+# microsoft office crap
 **/~*.odt
+**/~*.docx
+**/~*.tmp
 
 
 # ren'py specific
