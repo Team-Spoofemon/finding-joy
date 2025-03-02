@@ -1,11 +1,14 @@
-﻿
-# The game starts here.
 
-label start:
+# Scene 51 starts here.
+
+label scene_51:
+
+    scene black with fade
+    $ renpy.pause (0.5, hard=True)
 
     $ point = 0
 
-    scene coffeeshop day
+    #scene coffeeshop day
 
     show sprite_POMPO_front:
         xalign 0.85
@@ -53,35 +56,35 @@ label start:
 
 menu:
     "You're not into blowhards. Just tell him that. See how that goes.":
-        jump choice1_a
+        jump scene51_choice1a
     "There's many fish in the sea! That's got to be new advice he's never heard before!" if point > 0:
-        jump choice1_b
+        jump scene51_choice1b
     "I'm seeing someone. I'm definitely seeing someone." if point > 1:
-        jump choice1_c
+        jump scene51_choice1c
 
-label choice1_a:
+label scene51_choice1a:
     JOY "Sorry, but I don't like the way you think and I don't like the way you talk--we wouldn't work."
 
     JOY "I think the world is complicated. You think the world is simple. It isn't."
 
-    jump choice1_common
+    jump scene51_choice_common
 
-label choice1_b:
+label scene51_choice1b:
     JOY "Sorry, I'm sure you're good enough for the right person, but I don't think that person is me."
 
-    jump choice1_common
+    jump scene51_choice_common
 
-label choice1_c:
+label scene51_choice1c:
     JOY "Sorry, I'm seeing someone."
 
-    jump choice1_common
+    jump scene51_choice_common
 
-label choice1_common:
+label scene51_choice_common:
     POMPO "So now I'm stuck with the bill? Thanks a lot, feminism! Where's the equity here?"
 
     hide sprite_JOY_front with moveoutleft
 
-    show sprite_SHOPKEEPER_front:
+    show sprite_SHOPKEEPER_front with moveinleft:
         xalign 0.15
         yalign 1.0
 
