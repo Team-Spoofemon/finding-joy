@@ -7,7 +7,7 @@ define p = Character("Pompo")
 
 #game start
 
-label scene_50:
+label scene_50_lol:
 
 # replace scene when available
 
@@ -82,9 +82,9 @@ menu:
         $ choice = "no"
 
 if choice == "yes":
-    
+
     show joy flirty
-    
+
     j "Bad JOY! Horny jail for you! Bad JOY!"
 
 elif choice == "sure":

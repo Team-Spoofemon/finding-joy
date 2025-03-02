@@ -1,7 +1,7 @@
 
 # Scene 51 starts here.
 
-label scene_51:
+label scene_51_lol:
 
     scene black with fade
     $ renpy.pause (0.5, hard=True)
