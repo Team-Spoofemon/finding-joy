@@ -7,7 +7,7 @@ define p = Character("Pompo")
 
 #game start
 
-label start:
+label scene_50:
 
 # replace scene when available
 
