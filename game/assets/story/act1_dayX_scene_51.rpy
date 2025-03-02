@@ -8,7 +8,7 @@ label scene_51:
 
     $ point = 0
 
-    #scene coffeeshop day
+    scene pretend_this_is_a_coffeeshop
 
     show sprite_POMPO_front:
         xalign 0.85
