@@ -101,6 +101,9 @@ when shes about to quit it all, a bird or something needs help and she deals wit
         - SCENE 2 - JOY talks to FAITH who is interested in becoming a veterinarian, gets interrupted by IDIOT who brings a his dog who has swallowed an action figure
             - MINIGAME 6: pump the dog's belly until the action figure gets loose
         - SCENE 3 - JOY asks POMPO to restock some stuff, and they talk for a bit
+        - SCENE 4 - JOY gets asked out by POMPO
+        - SCENE 5 - JOY and POMPO get out on a date and POMPO gets rejected
+        - SCENE 6 - JOY is frustrated and gives herself a pep talk at home
 
 
 - ACT 2
@@ -112,9 +115,6 @@ when shes about to quit it all, a bird or something needs help and she deals wit
     more animals die
     even the romance isnt enough
     - Day something
-        - SCENE 4 - JOY gets asked out by POMPO
-        - SCENE 5 - JOY and POMPO get out on a date and POMPO gets rejected
-        - SCENE 6 - JOY is frustrated and gives herself a pep talk at home
 
 - ACT 3
     trump gets elected
