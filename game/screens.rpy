@@ -364,12 +364,15 @@ screen main_menu():
 
     if gui.show_name:
 
-        default thechoice = data['act1_day1_scene_X']['choice']
+        python:
+            import json
+
+        $ thechoice = json.dumps(data).replace('{', '{{')
+
         vbox:
             style "main_menu_vbox"
 
-            text "she"
-            text "[thechoice]"
+            text "variable data: [thechoice]"
 
             text "[config.name!t]":
                 style "main_menu_title"

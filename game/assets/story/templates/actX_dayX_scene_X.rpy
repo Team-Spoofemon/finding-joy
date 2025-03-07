@@ -1,7 +1,5 @@
-init:
-    define act1_day1_scene_X_choice = "???"
-
-label act1_day1_scene_X:
+# this is one style of doing things
+label actX_dayX_scene_X:
 label .subscene_1:
     play music music_JOY_theme fadeout 0.3 fadein 0.3
 
@@ -36,42 +34,43 @@ label .subscene_2:
 
     menu:
         "Say something!":
-            jump .say_something
+            $ data['actX_dayX_scene_X']['choice'] = "said something"
+            JOY "No way! I'm busy anyways and its not like I want ot talk to him!"
 
-        "Use healing machine":
-            jump .use_healing_machine
+        "Walk away.":
+            JOY "Good idea, its not like any good is gonna come out of talking to him"
+            $ data['actX_dayX_scene_X']['choice'] = "Walked away"
 
-    label .say_something:
-        $ act1_day1_scene_X_choice = "said something"
-        JOY "Hey, uh... you?"
+    JOY "Let's just quietly get the hell outta here. I'm glad I <[data['actX_dayX_scene_X']['choice']]>"
 
-        POMPO "Why if it isn't Joy! The sweetest, most blooming blossom this side of Viridian City!"
-
-        JOY "Hah... yeah! That's, uh... me! That's definitely me."
-
-        jump .end
-
-    label .use_healing_machine:
-        $ act1_day1_scene_X_choice = "didnt say anything"
-
-        JOY "Easy enough, I'm not in a talkative mood anyway."
-
-        jump .end
-
-    label .end:
-        JOY "man am I glad i [act1_day1_scene_X_choice]."
-        $ data['act1_day1_scene_X']['choice'] = act1_day1_scene_X_choice
-        return
+    return
 
 
 # # OTHER INTERESTING SNIPPETS
-# label scene_X:
+label templates_menus_parameters_organization:
+    # normal story flow
+    menu:
+        "A)":
+            call .set_choice("A")
+
+        "B)":
+            call .set_choice("B")
+
+    JOY "Picked [data['variable_replace']]"
+    return
+
+    # helper "functions"
+    label .set_choice(x="default"):
+        $ data['variable_replace'] = x
+        return
+
+# label templates_scene_X:
 #     play music music_pokemon_center fadeout 0.3 fadein 0.3
 #     menu:
 #         "Call":
-#             call act1_day1_scene_X.label_with_params(5)
+#             call actX_dayX_scene_X.label_with_params(5)
 #         "Jump":
-#             jump act1_day1_scene_X.label_without_params
+#             jump actX_dayX_scene_X.label_without_params
 #     return
 
 # label .label_with_params(x):
