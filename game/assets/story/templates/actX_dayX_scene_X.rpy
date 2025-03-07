@@ -1,5 +1,9 @@
-# this is one style of doing things
-label actX_dayX_scene_X:
+label actX_dayX_scene_X_style1:
+    '''
+    Narration / Docstring:
+        sublabels - ".subscene_1" allows some organization for ideas
+        does not set any global variables
+    '''
 label .subscene_1:
     play music music_JOY_theme fadeout 0.3 fadein 0.3
 
@@ -46,22 +50,25 @@ label .subscene_2:
     return
 
 
-# # OTHER INTERESTING SNIPPETS
-label templates_menus_parameters_organization:
-    # normal story flow
+# another way to do choice
+label actX_dayX_scene_X_style2:
+    '''
+    Narration / Docstring:
+        uses helper subfunctions to set choices rather than assigning them
+    '''
     menu:
         "A)":
-            call .set_choice("A")
+            call .set_choice("variable_replace", "A")
 
         "B)":
-            call .set_choice("B")
+            call .set_choice("variable_replace", "B")
 
     JOY "Picked [data['variable_replace']]"
     return
 
     # helper "functions"
-    label .set_choice(x="default"):
-        $ data['variable_replace'] = x
+    label .set_choice(key, value):
+        $ data[key] = value
         return
 
 # label templates_scene_X:
