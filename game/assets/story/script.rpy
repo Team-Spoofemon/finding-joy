@@ -8,7 +8,7 @@ define w = Character("Woe")
 
 # The game starts here.
 
-label start:
+label scene52:
 
     # These display lines of dialogue.
 
