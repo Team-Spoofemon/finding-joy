@@ -29,6 +29,7 @@ function Run-Lint {
         "$ProjectDirpath\game\saves\navigation.json"
         # --errors-in-editor
     Write-Host -ForegroundColor Yellow "Result: $LASTEXITCODE"
+    code "$ProjectDirpath\lint.txt"
 }
 
 function Run-Run {

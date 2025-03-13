@@ -1,4 +1,7 @@
 label start:
+    call act1_day3_scene4
+    call act1_day3_scene5
+    call act1_day3_scene6
     # call act1_day1_scene_X
     # call scene_50_lol
     # call scene_51_lol

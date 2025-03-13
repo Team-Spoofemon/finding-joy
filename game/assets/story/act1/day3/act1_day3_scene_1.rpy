@@ -8,7 +8,7 @@ label botfly_infection:
     scene black with fade
     $ renpy.pause (0.5, hard=True)
 
-    scene bg_table
+    scene bg_PetCheap_ExamRoom
 
     show sprite_JOY_front:
         xalign 0.15
@@ -36,7 +36,7 @@ label botfly_infection:
 
     show sprite_JOY_front:
         moveright
-    
+
     $ renpy.pause (1.2, hard=True)
 
     JOY "Poor thing..."

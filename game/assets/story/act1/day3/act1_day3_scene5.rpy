@@ -1,14 +1,14 @@
 
 # Scene 51 starts here.
 
-label scene_51_lol:
+label act1_day3_scene5:
 
     scene black with fade
     $ renpy.pause (0.5, hard=True)
 
     $ point = 0
 
-    scene pretend_this_is_a_coffeeshop
+    scene bg_CoffeeShop
 
     show sprite_POMPO_front:
         xalign 0.85
