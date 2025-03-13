@@ -2,7 +2,7 @@
 param (
     [Parameter()][String]$RenpyProjectRoot = "$PSScriptRoot\..\..\",
     [Parameter()][String]$Project = "finding-joy",
-    [Parameter(Mandatory=$true)][String][ValidateSet("clean", "lint", "ogg")]$Action
+    [Parameter(Mandatory=$true)][String][ValidateSet("clean", "lint", "ogg", "run")]$Action
 )
 
 $ProjectDirpath = [IO.Path]::GetFullPath("$RenpyProjectRoot/$Project")
@@ -31,9 +31,22 @@ function Run-Lint {
     Write-Host -ForegroundColor Yellow "Result: $LASTEXITCODE"
 }
 
+function Run-Run {
+    Write-Host -ForegroundColor Cyan "Running..."
+    # usually pythonw.exe
+    taskkill /f /t /im pythonw.exe
+    & "C:\tools\renpy-8.3.4-sdk\lib\py3-windows-x86_64\pythonw.exe"  `
+        "C:\tools\renpy-8.3.4-sdk\renpy.py"  `
+        $ProjectDirpath  `
+        --json-dump  `
+        "$ProjectDirpath\game\saves\navigation.json"  `
+        --errors-in-editor
+}
+
+
 
 function Convert-Ogg {
-    $pwd = Get-Location
+    $cwd = Get-Location
     $items = get-childitem -Path $ProjectDirpath -Recurse | Where-Object {
         $_.Name -match '^.*\.flac|^.*\.aiff'
     }
@@ -50,11 +63,10 @@ function Convert-Ogg {
         }
     }
     finally {
-        Set-Location $pwd
+        Set-Location $cwd
     }
 
 }
-
 
 
 # run the game at all
@@ -73,6 +85,9 @@ if ($Action.ToLower() -eq "clean") {
     Run-Lint
 } elseif ($Action.ToLower() -eq "ogg") {
     Convert-Ogg
+} elseif ($Action.ToLower() -eq "run") {
+    Run-Clean
+    Run-Run
 }
 
 

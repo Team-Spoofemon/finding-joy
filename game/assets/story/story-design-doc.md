@@ -77,7 +77,7 @@ when shes about to quit it all, a bird or something needs help and she deals wit
 
 - ACT 1
     - DAY 1
-        - SCENE 1 - JOY experiences a dream which shows flashing images of the future
+        - SCENE 1 - JOY experiences a dream which shows flashing images of the future, flashing images of animals, the vet clinic she's going to, blurry images of her coworkers
         - SCENE 2 - JOY pulls a Ramona Flowers in the mirror and choses their avatar.
         - SCENE 3 - JOY arrives at PETCHEAP and meets GLASHA, the other veterinarian who is finishing up her shift, and service FAITH who is a great client
             - MINIGAME 1: mush the kitty (literally compressing the kitty to calm them down)
@@ -94,7 +94,7 @@ when shes about to quit it all, a bird or something needs help and she deals wit
             - MINIGAME 4: tortoise minigame???
         - SCENE 5 - JOY services MORTY comes in with a dead stray dog who was run over on the highway and asks you to check
         - SCENE 6 - JOY is distraught, KELLY is aloof, POMPO makes an unfunny joke about another one bites the dust or something, GLASHA comes in to relieve JOY who goes home
-        - SCENE 7 - JOY talks to herself, and she's shaken just how matter of fact things are.
+        - SCENE 7 - JOY talks to herself at home, and she's shaken just how matter of fact things are.
     - DAY 3
         - SCENE 1 - JOY services FAITH who comes in with her cat who has a botfly infection
             - MINIGAME 5: The botfly is loose and you have to shoot it
@@ -109,10 +109,17 @@ when shes about to quit it all, a bird or something needs help and she deals wit
 - ACT 2
     - day otherstuff
     lots more of the same, more scenes with the rest of the characters, have a contemplative scene with GLASHA, etc. BOSS comes in, leaves a nasty impression on you because they're required to inspect their own franchise
-    FAITH comes in again asks about the job its middling reply
+
+    SCENE 64 - FAITH comes in again without an animal, asks about the job, just wants to thank you, brings you a small thank you card. it brightens up your day. they ask if they can have your number to call for house visits, you decline because the company doesnt allow it. (THIS WILL COME BACK LATER) they ask about becoming a vet, you lie and say its all great.
+
     you get dating requests, if one goes well you get a sex scene, etc. maybe the other is going to the bar and you get sexy time in the alleyway behind the bar, i dont know
-    FAITH comes in again asks about the job, its somewhat reply
+
+    SCENE 70 - FAITH comes in again asks about the job, said they applied to vet school, you talk more real talk this time saying like its not glamorous. they leave feeling uneasy about the idea and dejected
+
     more animals die
+
+    SCENE 75 - FAITH comes back and is defiant about your advice to aim lower, "spits in your face" about your pessimism, saying they'll do it anyway. at this point you feel really low, things look bad for job, country, etc. and you really need to hear it, but it doesnt sink in.
+
     even the romance isnt enough
     - Day something
 
@@ -120,65 +127,28 @@ when shes about to quit it all, a bird or something needs help and she deals wit
     trump gets elected
     more of the same
     more of the same
-    store is closed, sign posted to meet on zoom in 1hr and its in the parking lot, basically eveyrones access was revoked overnight. the store needs to close immediately, DOGE style
-    POMPO says I couldnt believe this is happening, trump was supposed to make things ok
+    maybe GLASHA is incapacitated or their wheel blows out on the highway?
+
+    SCENE 80 - catastrophe, everyone is laid off--the VSGP funding was cut thanks to that fucking moron in the white house and his stooge. (this is my prediction of a TYPE of service they'll just cut) store is closed, sign posted to meet on zoom in 1hr and its in the parking lot, basically eveyrones access was revoked overnight. the store needs to close immediately, DOGE style
+
+    SCENE 85 - POMPO is crying, they dont understand, long political screed, i'm going to fucking kill them, etc. POMPO says I couldnt believe this is happening, trump was supposed to make things ok
+
     everyone goes home
     joy contemplates ending things
-    POMPO calls, leaves a voicemail, keeps calling, keeps texting, you pick up and then go save the eagle, find your passion
-    call up eveyrone if they want to make their own shop, so they buy up the old shop again.
 
+    SCENE 86 - POMPO calls, leaves a voicemail, and JOY talks to themself about why they're the reason we're in this mess, youre done, block them, but JOY walks to the kitchen to pour a glass of wine.
 
+    SCENE 87 - POMPO has called you like 5 times sent 3 texts and 2 voicemails. you return to the bathroom, reach to block, but hten you read the transcripts. you play a voicemail saying something inspiring, you find your passion, and you leave to save the animals. You text "i'm coming". POMPO called you because you're the best one for the job.
 
+    SCENE 88 - As you're driving, the thoughts in your head
 
+    SCENE 90 - you arrive, see POMPO stabilizing the bird, you could do it with 2 people, but its really a 3 person job, so now you invite the client to join. together the 2 hold it down so it doesnt hurt itself more, then you grab its other wing and start operating. i dont fucking know how eagles work.
 
+    SCENE 91 - minigame where you're trying to fix a broken bone
 
+    SCENE 92 - your boss strikes up a conversation, says i can't believe this is happening, you say of course it is. boss asks what should I do, the client replies saying what you WISH you could say ot their face.
+    the client says you fight it. fight for the least of us. fight not because you need it, fight because someone else does.
 
-start with a dream sequence, they see flashing images of animals, the vet clinic she's going to, blurry images of her coworkers,
+    SCENE 93 - the client says, thats why you came, looking at the boss or rival or whatever, youre fighting for this creature who can't fight for itself in this situation. you dont do it because you need it, you do it because they need it.
 
-
-
-scene 60 - a FATEFUL ENCOUNTER with a young client, brings their cat, cat has a botfly hole in their chest, she explains what it could be, takes 1hr to deal with, the youg ? old? client leaves
-
-scene 64 - young client comes back, no animal, just wants to thank you, brings you a small thank you card. it brightens up your day. they ask if they can have your number to call for house visits, you decline because the company doesnt allow it. (THIS WILL COME BACK LATER) they ask about becoming a vet, you say its all great.
-
-
-scene 70 - client comes back just to talk, said they applied to vet school, you talk more real talk this time saying like its not glamorous. they leave feeling uneasy about the idea and dejected
-
-
-scene 75 - client comes back and "spits in your face" about your pessimism, saying they'll do it anyway. at this point you feel really low, things look bad for job, country, etc. and you really need to hear it, but it doesnt sink in.
-
-
-
-
-scene 80 - catastrophe, everyone is laid off--the VSGP funding was cut thanks to that fucking moron in the white house and his stooge. (this is my prediction of a TYPE of service they'll just cut)
-
-https://www.avma.org/news/millions-allocated-federal-veterinary-programs
-https://www.nifa.usda.gov/grants/programs/veterinary-services-grant-program
-
-The purpose of the Veterinary Services Grant Program (VSGP) is to relieve veterinarian shortage situations and support veterinary services. There are two types of grants for VSGP: Education, Extension, and Training (EET) and Rural Practice Enhancement (RPE).
-
-There are two types of grants for VSGP: Education, Extension, and Training (EET) and Rural Practice Enhancement (RPE).
-The Education, Extension, and Training (EET) grants will be made available on a competitive basis to qualified entities to develop, implement, and sustain veterinary services through education, training, recruitment, placement, and retention of veterinarians, veterinary technicians, and students of veterinary medicine and veterinary technology. The Rural Practice Enhancement (RPE) grants will also be made to establish or expand veterinary practices in rural areas.
-
-The Veterinary Services Grant Program (VSGP) is authorized by the 2014 Farm Bill. Initial funding for the program, $2.5 million, was appropriated in the FY 2016 budget. VSGP now has $4 million in funding. The legislation emphasizes two areas: Education, Extension, and Training (EET) and Rural Practice Enhancement (RPE).
-
-scene 85 - crying, they dont understand, long political screed, i'm going to fucking kill them, etc.
-
-scene 86 - call comes from the boss, you ignore because you dont want to hear from them, they gave the news and were a trump supporter, that kind of shit.
-
-scene 87 - boss calls again, you ignore again
-
-scene 88 - boss says its that lady with the botfly cat, she's at the clinic right now begging me to get a hold of you (as i was locking up), she says there's an eagle on her porch, and she says she wants you. you in anger say, you go deal with it. boss says, no. she wants you, and i agree you're the best for the job--im driving to her house at whatever, i hope you'll come.
-
-scene 89 - you drive, lots of thoughts in your head
-
-scene 90 - you arrive, see your boss stabilizing the bird, you could do it with 2 people, but its really a 3 person job, so now you invite the client to join. together the 2 hold it down so it doesnt hurt itself more, then you grab its other wing and start operating. i dont fucking know how eagles work.
-
-scene 91 - minigame where you're trying to fix a broken bone
-
-scene 92 - your boss strikes up a conversation, says i can't believe this is happening, you say of course it is. boss asks what should I do, the client replies saying what you WISH you could say ot their face.
-the client says you fight it. fight for the least of us. fight not because you need it, fight because someone else does.
-
-scene 93 - the client says, thats why you came, looking at the boss or rival or whatever, youre fighting for this creature who can't fight for itself in this situation. you dont do it because you need it, you do it because they need it.
-
-scene 94 - joy finds her joy again. she proposes starting a clinic together. trump supporter and all.
+    SCENE 94 - joy finds her joy again. she proposes starting a clinic together. trump supporter and all. call up eveyrone if they want to make their own shop, so they buy up the old shop again.

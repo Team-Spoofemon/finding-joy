@@ -16,6 +16,8 @@
     - for example if joy is interacting in the bathroom, we might need joy to be able to walk around the bathroom
 - character creator
     - you can pick from different avatars for JOY, some are gender expressioned, some are gender expressionless
+- "the next day" needs to be able to scroll very slowly
+- we need test to display like a typewriter, change fonts, etc.
 
 minigame ideas:
     examining a bunch of patients for diagnoses - for example lungs, heart, tummy, lumps, etc.
