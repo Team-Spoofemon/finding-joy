@@ -2,6 +2,10 @@
 A delightful visual novel about a veterinarian who meets colorful characters and their soulmate???
 
 
+# Play Our Game!
+[itch.io](https://tr-crzs.itch.io/finding-joy?secret=KkmTJrkN6LbbIxfYKfJGxwLVFn0)
+
+
 # Contributors
 - [Lee](https://www.linkedin.com/in/yo-lee-gorman-5415b5212) - Art 2D
 - [Hannah](https://www.linkedin.com/in/hannah-fu-08a0a8227) - Art 2D
