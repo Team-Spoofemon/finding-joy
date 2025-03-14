@@ -1,7 +1,7 @@
 - titular
     - JOY Öus - titular character of the story, talks to themself
     - WOE Ihz - the player character, JOY's inner voice, attempts to influence JOY to no avail
-    - QUESTION - meta character--before a character is introduced and is offscreen, we use QUESTION and ??? to show that a "new character" is entering.
+    - QUESTION - meta character--before a character is introduced and is offsplzcreen, we use QUESTION and ??? to show that a "new character" is entering.
 - Cowokers:
     - POMPO Sprick / Nar Casist - vet technician, thinks he's got the world all figured out and overconfident about it
     - GLASHA Fuhl - veterinarian already at the clinic, becomes friends with Joy
