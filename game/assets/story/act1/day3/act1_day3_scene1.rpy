@@ -34,7 +34,17 @@ label act1_day3_scene1:
 
     JOY "Yes I am, how can I help you?"
 
+    show sprite_FAITH_worried:
+        xalign 0.85
+        yalign 1.0
+    hide sprite_FAITH_front
+
+
     FAITH "I'm Faith and this is Biscuits--there's something alive inside my cat's chest!!"
+
+    show sprite_BISCUITS_worried with moveinright:
+        xalign 0.85
+        yalign 1.0
 
     show sprite_JOY_front:
         moveright
