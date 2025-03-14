@@ -43,8 +43,9 @@ label act1_day3_scene1:
     FAITH "I'm Faith and this is Biscuits--there's something alive inside my cat's chest!!"
 
     show sprite_BISCUITS_worried with moveinright:
-        xalign 0.85
-        yalign 1.0
+        # put biscuits on the table
+        xalign 0.70
+        yalign 0.62
 
     show sprite_JOY_front:
         moveright
