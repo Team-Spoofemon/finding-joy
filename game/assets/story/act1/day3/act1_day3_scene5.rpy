@@ -51,8 +51,6 @@ label act1_day3_scene5:
 
     JOY "The FUCK did he just ask?"
 
-    WOE " "
-
 menu:
     "You're not into blowhards. Just tell him that. See how that goes.":
         jump scene51_choice1a
