@@ -1,5 +1,11 @@
 ﻿label act1_day3_scene6:
 
+    scene black with fade
+
+    scene bg_JoyHouse_entry
+
+    show sprite_JOY_mad
+
     JOY "I can't stand this. I can't fucking stand this."
 
     JOY "Why are there people like him in the world? Why?"
@@ -8,7 +14,7 @@
 
     menu: #starts menu
 
-            "You knoWOE why":                 #choice label
+            "You know why":                 #choice label
                 $ choice = "know"           #keyword
 
             "Death to men":                 #choice label
@@ -27,21 +33,18 @@
 
         show sprite_JOY_happy
 
-        WOE "But if I pulled that off, that's not a viable strategy for the existence of our species...plus illegal."
+        JOY "But if I pulled that off, that's not a viable strategy for the existence of our species...plus illegal."
 
     elif choice == "emboldened":
 
-        show sprite_JOY_confident
+        show sprite_JOY_frustrated
 
-        WOE "But what the hell am I supposed to do about that?"
-
-
-    jump continue_game
-
-label continue_game:
+        JOY "But what the hell am I supposed to do about that?"
 
 
-    JOY "UGH! I fucked up--noWOE when I come back tomorroWOE I'm going to have to deal with him and everyone's going to knoWOE and!!"
+    show sprite_JOY_mad
+
+    JOY "UGH! I fucked up--now when I come back tomorrow I'm going to have to deal with him and everyone's going to know and!!"
 
 
     JOY "Oh my god... did I do the right thing"
@@ -68,9 +71,6 @@ label continue_game:
 
         JOY "Are you sure?"
 
-    jump continue_again
-
-label continue_again:
 
     JOY "Sigh."
 
@@ -83,7 +83,7 @@ label continue_again:
             "You'll be fine":
                 $ choice = "fine"
 
-            "if tomorroWOE even comes, it's just going to have even more crazy shit in it":
+            "if tomorrow even comes, it's just going to have even more crazy shit in it":
                 $ choice = "crazy"
 
     if choice == "fine":
@@ -95,14 +95,10 @@ label continue_again:
 
         show sprite_JOY_nervous
 
-    jump continue_again2
-
-label continue_again2:
-
 
     JOY "Yeah"
 
-    JOY "This is fine. I'll deal with tomorroWOE when it comes. We're ok. I'm ok. We're ok right?"
+    JOY "This is fine. I'll deal with tomorrow when it comes. We're ok. I'm ok. We're ok right?"
 
 
     menu:
@@ -121,12 +117,9 @@ label continue_again2:
 
         show sprite_JOY_nervous
 
-    jump continue_game_again
-
-label continue_game_again:
 
     JOY "We're ok. I'm ok. It's ok."
 
-    # This ends the game.
+    scene black with fade
 
     return

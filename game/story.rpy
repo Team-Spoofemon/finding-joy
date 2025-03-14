@@ -1,13 +1,17 @@
 label start:
+    stop music fadeout 1.0  # from the menu
+
+    # call debug
+
+    call act1_day3_scene1
     call act1_day3_scene4
     call act1_day3_scene5
     call act1_day3_scene6
-    # call act1_day1_scene_X
-    # call scene_50_lol
-    # call scene_51_lol
 
-    # DEBUG labels
-    # call actX_dayX_scene_X_style1
-    # call actX_dayX_scene_X_style2
+    return
+
+label debug:
+    call actX_dayX_scene_X_style1
+    call actX_dayX_scene_X_style2
     # jump start  -- infinite loop, will never reach return
     return

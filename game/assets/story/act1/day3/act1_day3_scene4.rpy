@@ -1,35 +1,37 @@
 ﻿label act1_day3_scene4:
 
+scene black with fade
+
 # replace scene when available
 
 scene bg_PetCheap_ExamRoom
 
 # first character
 
-show sprite_JOY_exhausted
+show sprite_JOY_exhausted with moveinleft:
+    xalign 0.15
+    yalign 1.0
 
 JOY "I'm exhuasted! One more thing and I swear to God--"
 
 hide sprite_JOY_exhausted
 
-show sprite_POMPO_smug
+show sprite_POMPO_smug with moveinright:
+    xalign 0.85
+    yalign 1.0
 
 POMPO "Well look who it is! And here I thought today couldn't get any better."
 
-hide sprite_POMPO_smug
-
-show sprite_JOY_annoyed
+show sprite_JOY_annoyed:
+    xalign 0.15
+    yalign 1.0
 
 JOY "Oh here we go..."
 
-show sprite_JOY_front at left
-
-
-show sprite_POMPO_smug at right
 
 JOY "What have you got for me this time?"
 
-POMPO "Oh, don't be like that! The other technicians are covering for me and I just finished uPOMPO with Glasha's client, so this time it's not about work."
+POMPO "Oh, don't be like that! The other technicians are covering for me and I just finished up with Glasha's client, so this time it's not about work."
 
 show sprite_JOY_curious
 
@@ -87,15 +89,14 @@ elif choice == "no":
 
     show sprite_JOY_sad
 
-    JOY "You know this guy will just ask again! I'll just turn him down at the shoPOMPO while we talk. It'll be fineeeee!"
+    JOY "You know this guy will just ask again! I'll just turn him down at the shop  while we talk. It'll be fineeeee!"
 
 
 # Joy turns back to walk away
 
-show sprite_JOY_front at left
-
-
-show sprite_JOY_front
+show sprite_JOY_front:
+    xalign 0.15
+    yalign 1.0
 
 JOY "Looks like I'll see you after our shift."
 
@@ -104,5 +105,7 @@ show sprite_POMPO_happy at right
 POMPO "Sounds like a plan!"
 
 
+
+scene black with fade
 
 return

@@ -3,7 +3,9 @@
 transform moveright:
     linear 0.6 xpos 0.5
 
-label botfly_infection:
+label act1_day3_scene1:
+
+    play music music_theme2
 
     scene black with fade
     $ renpy.pause (0.5, hard=True)
@@ -50,6 +52,10 @@ label botfly_infection:
     JOY "Don't be, that's what I'm here for."
 
     #Insert Minigame 5: The botfly is loose and you have to shoot it
+
+
+    stop music fadeout 0.5
+    scene black with fade
 
     return
     #replace return with a jump to Act 1, Day 3, Scene 2

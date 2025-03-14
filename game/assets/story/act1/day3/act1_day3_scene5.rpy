@@ -4,13 +4,12 @@
 label act1_day3_scene5:
 
     scene black with fade
-    $ renpy.pause (0.5, hard=True)
 
     $ point = 0
 
     scene bg_CoffeeShop
 
-    show sprite_POMPO_front:
+    show sprite_POMPO_front with moveinleft:
         xalign 0.85
         yalign 1.0
 
@@ -92,6 +91,6 @@ label scene51_choice_common:
 
     POMPO "..."
 
-    # This ends the game.
+    scene black with fade
 
     return
