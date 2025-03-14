@@ -7,7 +7,7 @@ label actX_dayX_scene_X_style1:
 label .subscene_1:
     play music music_JOY_theme fadeout 0.3 fadein 0.3
 
-    scene bg_front_desk with fade
+    scene bg_PetCheap_FrontDesk with fade
     show sprite_JOY_front with dissolve
 
     JOY "Hi! I'm Joy, a pre-med student at San Jose State University."
@@ -18,7 +18,7 @@ label .subscene_1:
 
 
 label .subscene_2:
-    scene bg_table with fade
+    scene bg_PetCheap_ExamRoom with fade
     show sprite_JOY_front at left with dissolve
 
     JOY "I wonder if I'm going to run into anyone I recognize here..."

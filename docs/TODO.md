@@ -1,4 +1,17 @@
 # Features
+ideas:
+    define a few emotions!
+    if you can get a few standard emotions, that would be super helpful
+    maybe to cut down on asset resources, rather than having sitting standing, we can do a zoom in fade type situation
+
+
+animations and scene to scene transitions...
+    $ renpy.pause (delay, hard=True)
+
+
+as a1d3s1 demonstrates, we may need a layering system...
+
+
 - logo
 - non woke config, no woke is just "every choice doesnt correlate"
 - title page Splash screen - https://www.renpy.org/doc/html/splashscreen_presplash.html#adding-a-splashscreen

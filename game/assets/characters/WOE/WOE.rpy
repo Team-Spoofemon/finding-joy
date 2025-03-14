@@ -1,0 +1,1 @@
+﻿define WOE = Character("Woe")

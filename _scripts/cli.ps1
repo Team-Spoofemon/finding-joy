@@ -2,7 +2,8 @@
 param (
     [Parameter()][String]$RenpyProjectRoot = "$PSScriptRoot\..\..\",
     [Parameter()][String]$Project = "finding-joy",
-    [Parameter(Mandatory=$true)][String][ValidateSet("clean", "lint", "ogg", "run")]$Action
+    [Parameter(Mandatory=$true)][String][ValidateSet("clean", "lint", "ogg", "run")]$Action,
+    [Parameter()][switch]$Force
 )
 
 $ProjectDirpath = [IO.Path]::GetFullPath("$RenpyProjectRoot/$Project")
@@ -29,6 +30,7 @@ function Run-Lint {
         "$ProjectDirpath\game\saves\navigation.json"
         # --errors-in-editor
     Write-Host -ForegroundColor Yellow "Result: $LASTEXITCODE"
+    code "$ProjectDirpath\lint.txt"
 }
 
 function Run-Run {
@@ -46,6 +48,7 @@ function Run-Run {
 
 
 function Convert-Ogg {
+    $generated = @()
     $cwd = Get-Location
     $items = get-childitem -Path $ProjectDirpath -Recurse | Where-Object {
         $_.Name -match '^.*\.flac|^.*\.aiff'
@@ -57,15 +60,30 @@ function Convert-Ogg {
 
             Set-Location $dirname
 
-            $cmd = "ffmpeg -y -i '$($_.Name)' '$filename.ogg'"
-            Write-Host -ForegroundColor Green $cmd
-            Invoke-Expression $cmd
+            if ($Force -or (-Not (Test-Path -Path "$filename.ogg" -ErrorAction SilentlyContinue))) {
+                $cmd = "ffmpeg -y -i '$($_.Name)' '$filename.ogg'"
+                Write-Host -ForegroundColor Green $cmd
+                Invoke-Expression $cmd
+
+                $generated += @("$filename.ogg")
+            }
+
+            if ($Force -or (-Not (Test-Path -Path "$filename (reversed).ogg" -ErrorAction SilentlyContinue))) {
+                $cmd = "ffmpeg -y -i '$($_.Name)' -af 'areverse' '$filename (reversed).ogg'"
+                Write-Host -ForegroundColor Green $cmd
+                Invoke-Expression $cmd
+
+                $generated += @("$filename (reversed).ogg")
+            }
         }
     }
     finally {
         Set-Location $cwd
     }
 
+    $generated | ForEach-Object {
+        Write-Host -ForegroundColor Cyan $_
+    }
 }
 
 
