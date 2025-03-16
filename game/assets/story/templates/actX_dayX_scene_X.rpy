@@ -85,3 +85,110 @@ label actX_dayX_scene_X_style2:
 #     play music music_healed fadeout 0.3 fadein 0.3
 #     EILEEN "a = [accumulator]" # displays 5 or 3 depending on what path was taken
 #     return
+
+
+# https://www.renpy.org/doc/html/layeredimage.html
+
+label debug_animation:
+    # https://www.renpy.org/doc/html/transforms.html#atl
+    image sprite_JOY_front_moving:
+        animation
+        "assets/characters/JOY/sprite_JOY_front.png"
+        xalign 0.0
+        linear 5.0 xalign 1.0
+        repeat
+
+    show sprite_JOY_front_moving
+
+    JOY "debug animation"
+
+    hide sprite_JOY_front_moving with dissolve
+
+    JOY "debug animation dissolve"
+
+    show sprite_JOY_front_moving:  # unrelated image
+        animation
+        "assets/characters/JOY/sprite_JOY_front.png"
+        xalign 0.0
+        linear 5.0 xalign 1.0
+        repeat
+
+    JOY "show vs image"
+
+    JOY "note, without return, this image will continue to move forever"
+
+
+
+
+# label play_dialogue_and_animate(character, dialogue):
+#     play sound "assets/audio/bombomb.ogg"
+#     character dialogue
+#     return
+
+layeredimage faith:
+    # zoom 1.4
+    # at recolor_transform  # not sure what it is, doesnt work either
+
+    always:
+        "assets/characters/FAITH/sprite_FAITH_front.png"
+    attribute worried:
+        "assets/characters/FAITH/sprite_FAITH_worried.png"
+
+    # group expressions:
+    #     pos (100, 600)
+    #     attribute happy default:
+    #         ""
+
+layeredimage biscuits:
+    # https://gruntsteel.itch.io/distant-travels/devlog/452114/how-to-set-up-layeredimages-in-renpy-new-sprite-teaser
+    # helped
+
+    always:
+        "assets/characters/FAITH/BISCUITS/sprite_BISCUITS_front.png"
+    group emotions:
+        attribute worried:
+            "assets/characters/FAITH/BISCUITS/sprite_BISCUITS_worried.png"
+        attribute happy:
+            "assets/characters/FAITH/BISCUITS/sprite_BISCUITS_happy.png"
+
+init python:
+    def bombomb_voice(event, interact=True, **kwargs):
+        # https://www.renpy.org/doc/html/character_callbacks.html#character-callbacks
+        if not interact:
+            return
+
+        if event == "show_done":
+            renpy.sound.play("assets/audio/bombomb.ogg")
+        elif event == "slow_done":
+            renpy.sound.stop()
+
+define f = Character("faith", callback=bombomb_voice)
+
+label debug_conversation:
+    show faith
+    f "my name is faith"
+
+    show biscuits:
+        xalign .5
+        yalign .6
+
+    f "this is biscuits"
+
+    show faith worried:
+        animation
+        xalign 0.5
+        linear 0.05 xalign 0.51
+        linear 0.05 xalign 0.5
+        linear 0.05 xalign 0.49
+        repeat
+
+    f "i am worried"
+
+
+    show faith worried:
+        animation
+
+    f "sorry for spazzing"
+
+    show biscuits happy
+    f "biscuits is happy im worried"
