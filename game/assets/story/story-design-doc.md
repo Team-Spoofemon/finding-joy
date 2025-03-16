@@ -23,6 +23,7 @@
     - WRATH - client, always on the phone
         - BUTTER - a golden retriever, has a big splinter in their paw
     - SLOTH - client, provides some levity
+        - GRAVY - a derpy dog, has something comically big stuck in its neck (its not in severe pain tho)
 
 
 ## Settings

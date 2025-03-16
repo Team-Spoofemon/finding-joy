@@ -14,15 +14,15 @@ c) Why not join the crazy, like the Joker?
 
 JOY
 a) Dear god in heaven, no!
-    JOY becomes fearful
+    *stage:* JOY becomes fearful
 
 
 b) We can survive, I know it!
-    JOY becomes happy
+    *stage:* JOY becomes happy
 
 
 c) Just one bad day away, huh?
-    JOY becomes angry
+    *stage:* JOY becomes angry
 
 *stage:* JOY moves to the left.
 

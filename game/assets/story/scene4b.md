@@ -16,7 +16,7 @@ FAITH
 Really? How'd you find out?
 
 JOY
-Oh, this co-workers I don't really like asked me out here and I turned them down.
+Oh, this co-worker I don't really like asked me out here and I turned them down.
 
 *stage:* FAITH is thinking
 
