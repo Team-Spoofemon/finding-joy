@@ -65,11 +65,11 @@
 
 
 ## Dev Mechanics?
+- the last spoken dialogue should still display for the player
 - JOY turns to WOE: desaturate the background and have JOY face the player with an appropriate facial expression
 - "wiggle" / "bounce" animation
     - every time a character talks, make sure the sprite wiggles to show they're doing something
     - when joy gets close to an animal and "fixes" them, the two sprites need to jiggle together to portray activity
-- the last spoken dialogue should still display for the player
 
 
 ## Music

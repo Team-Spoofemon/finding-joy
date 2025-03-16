@@ -8,7 +8,7 @@ JOY
 I can't stand this.
 
 JOY
-I can't fucking stand this
+I can't *fucking* stand this.
 
 *stage:* JOY walks to the right, JOY is sad
 
@@ -72,6 +72,9 @@ WOE
 a) And you stayed true to yourself!
 
 *stage:* JOY walks to the center, JOY is neutral
+
+JOY
+Hell yeah.
 
 WOE
 a) You acted with integrity!

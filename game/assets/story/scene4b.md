@@ -10,7 +10,7 @@ Wow, I never knew this coffee shop existed! And they allow pets!
 *stage:* JOY is happy
 
 JOY
-Truthfully I had no idea until 5 minutes ago.
+Truthfully I had no idea until five minutes ago.
 
 FAITH
 Really? How'd you find out?
@@ -49,7 +49,7 @@ JOY
 You scared me! Don't do that to me!
 
 FAITH
-I'm sorry, that was a bad joke.
+That was a bad joke, I'm sorry!
 
 FAITH
 I guess I'm still jumpy since you helped BISCUITS.
@@ -88,7 +88,7 @@ Did you really mean what you said?
 *stage:* FAITH is fear
 
 FAITH
-Wait which thing? I feel like I said a lot!
+Wait, which thing? I feel like I said a lot!
 
 JOY
 Did you mean what you said about being inspiring?
@@ -115,7 +115,7 @@ b) It's hard sometimes. I don't feel inspiring.
 JOY
 a)
     JOY
-    I don't want you to go into this just to get disappointed like me.
+    I don't want you to get into helping animals just to get disappointed like me.
 
     *stage:* FAITH is sadness
 
@@ -196,7 +196,10 @@ FAITH
 No matter what, follow your passion.
 
 FAITH
-Even when the world is ending, follow your passion. Do what you can.
+Even when the world is ending, follow your passion.
+
+FAITH
+Do what you can.
 
 *stage:* JOY is sad
 
@@ -223,5 +226,3 @@ Yes.
 
 FAITH
 That's what I believe.
-
-
