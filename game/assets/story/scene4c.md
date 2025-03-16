@@ -174,10 +174,10 @@ b) The happiest pair of animals in the kingdom.
 
 JOY
 a) There should be an award for that right?
-    *stage:* JOY becomes happy
+    *stage:* JOY is happy
 
 b) Yeah, they're cute and deserve each other.
-    *stage:* JOY becomes happy
+    *stage:* JOY is happy
 
 JOY
 Who needs a date when you get to bear witness to true love like that?

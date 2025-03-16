@@ -23,12 +23,12 @@ Oh, this co-worker I don't really like asked me out here and I turned them down.
 FAITH
 So you ditch them and ask me instead?
 
-*stage:* JOY is afraid
+*stage:* JOY is fear
 
 JOY
 Oh no... I'm a bad person, aren't I?
 
-*stage:* FAITH is afraid
+*stage:* FAITH is fear
 
 FAITH
 No! No! Nah...
@@ -80,12 +80,12 @@ Speaking of which...
 FAITH
 Yeah?
 
-*stage:* JOY is afraid
+*stage:* JOY is fear
 
 JOY
 Did you really mean what you said?
 
-*stage:* FAITH is afraid
+*stage:* FAITH is fear
 
 FAITH
 Wait which thing? I feel like I said a lot!
@@ -117,7 +117,7 @@ a)
     JOY
     I don't want you to go into this just to get disappointed like me.
 
-    *stage:* FAITH becomes sadness
+    *stage:* FAITH is sadness
 
     FAITH
     Are you disappointed?
@@ -125,7 +125,7 @@ a)
     JOY
     Even if I have ten good encounters, having one awful moment ruins everything.
 
-    *stage:* FAITH becomes neutral
+    *stage:* FAITH is neutral
 
     FAITH
     I work at my campus Pizza Hut. I know what you mean.
@@ -145,12 +145,12 @@ a)
 
 
 b)
-    *stage:* JOY becomes sad
+    *stage:* JOY is sad
 
     JOY
     I love working with animals, you know?
 
-    *stage:* FAITH becomes happy
+    *stage:* FAITH is happy
 
     FAITH
     I could tell. That's why I said what I did.
@@ -158,7 +158,7 @@ b)
     JOY
     But with everything going on--our funding just got cut.
 
-    *stage:* FAITH becomes sad
+    *stage:* FAITH is sad
 
     FAITH
     I'm so sorry. Which agency was it?
@@ -169,12 +169,12 @@ b)
     JOY
     I won't be able to work with animals anymore.
 
-    *stage:* FAITH becomes neutral
+    *stage:* FAITH is neutral
 
     FAITH
     You'll pull through this.
 
-    *stage:* JOY becomes happy
+    *stage:* JOY is happy
 
     JOY
     You sound so confident. Why do you think so?

@@ -21,11 +21,11 @@ a) That's right, JOY! That's the spirit!
 
 
 b) We know enough. Let's do this.
-    JOY becomes neutral
+    JOY is neutral
 
 
 c) You're right. Gotta pace myself.
-    JOY becomes neutral
+    JOY is neutral
 
 *stage:* JOY moves to the left.
 
@@ -43,7 +43,7 @@ Fix what you broke, you hear me?
 JOY
 Uh, yes. I sure do. What seems to be the problem?
 
-*stage:* WRATH turns to the right
+*stage:* WRATH turns to the right. WRATH is angry.
 
 WRATH
 My name's WRATH, damnit! Just fix it!
@@ -51,17 +51,17 @@ My name's WRATH, damnit! Just fix it!
 JOY
 Fix... what exactly?
 
-*stage:* WRATH turns to the left
+*stage:* WRATH turns to the left. WRATH is happy.
 
 WRATH
 I wasn't talking to you! Fix my BUTTER--and you!
 
-*stage:* WRATH turns to the right
+*stage:* WRATH turns to the right. WRATH is angry.
 
 WRATH
 Fix what you broke!
 
-*stage:* JOY becomes fearful
+*stage:* JOY is fearful
 
 JOY
 What the hell?
@@ -78,7 +78,7 @@ b) In and out. Lets go, quick...
 JOY
 You're right.
 
-*stage:* JOY moves to the center, BUTTER moves to the center, WRATH turns to the left, JOY becomes happy
+*stage:* JOY moves to the center, BUTTER moves to the center, WRATH turns to the left, WRATH is angry, JOY is happy
 
 JOY
 Hi there, BUTTER! What seems to be the problem?
@@ -107,7 +107,7 @@ Just a bit more...
 JOY
 Got it! We're all set to go--?
 
-*stage:* BUTTER becomes happy
+*stage:* BUTTER is happy
 
 BUTTER
 Bark! Bark!

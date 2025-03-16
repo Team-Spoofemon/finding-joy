@@ -35,7 +35,7 @@ JOY
 IDOLA
 Well?
 
-*stage:* JOY becomes fearful.
+*stage:* JOY is fearful.
 
 JOY
 Are you... asking me out?
@@ -49,7 +49,7 @@ We're coworkers! Why would you ask me out?
 IDOLA
 PetCheap doesnt have a fraternization policy!
 
-*stage:* JOY becomes neutral.
+*stage:* JOY is neutral.
 
 JOY
 You're kidding.
@@ -75,7 +75,7 @@ c) You're insane, you know that? But why not!
 
 ---a) path ---
 
-*stage:* JOY becomes neutral.
+*stage:* JOY is neutral.
 
 JOY
 Looks like we're getting coffee.
@@ -87,12 +87,12 @@ Sounds like a plan!
 
 ---b) path ---
 
-*stage:* JOY becomes angry.
+*stage:* JOY is angry.
 
 JOY
 The next client is coming. I've gotta go.
 
-*stage:* JOY exits right. IDOLA becomes sad and faces right.
+*stage:* JOY exits right. IDOLA is sad and faces right.
 
 IDOLA
 What the hell just happened? Thanks, Obama.
@@ -101,12 +101,12 @@ What the hell just happened? Thanks, Obama.
 
 ---c) path ---
 
-*stage:* JOY becomes happy.
+*stage:* JOY is happy.
 
 JOY
 You know, I just remembered I need to powder my nose.
 
-*stage:* JOY exits right. IDOLA becomes sad and faces right.
+*stage:* JOY exits right. IDOLA is sad and faces right.
 
 IDOLA
 Rain check! I get it! Next week for sure!

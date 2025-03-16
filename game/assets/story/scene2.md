@@ -14,15 +14,15 @@ c) Why not join the crazy, like the Joker?
 
 JOY
 a) Dear god in heaven, no!
-    *stage:* JOY becomes fearful
+    *stage:* JOY is fearful
 
 
 b) We can survive, I know it!
-    *stage:* JOY becomes happy
+    *stage:* JOY is happy
 
 
 c) Just one bad day away, huh?
-    *stage:* JOY becomes angry
+    *stage:* JOY is angry
 
 *stage:* JOY moves to the left.
 
@@ -40,7 +40,7 @@ Oh my god, are you the vet?
 JOY
 Yes I am, how can I help you?
 
-*stage:* FAITH becomes fearful.
+*stage:* FAITH is fearful.
 
 FAITH
 I'm Faith and this is BISCUITS--there's something inside his chest!
@@ -53,7 +53,7 @@ Poor thing...
 FAITH
 Whats wrong? Are they going to be okay?
 
-*stage:* JOY becomes fearful.
+*stage:* JOY is fearful.
 
 JOY
 Your BISCUITS has a botfly, but they're going to be just fine!
@@ -61,7 +61,7 @@ Your BISCUITS has a botfly, but they're going to be just fine!
 FAITH
 That's a relief... I'm just so worried!
 
-*stage:* JOY becomes happy.
+*stage:* JOY is happy.
 
 JOY
 Don't be, that's what I'm here for.
@@ -136,8 +136,8 @@ b) Slide into those DM's or else.
 
 JOY
 a) Right? This feels really cool!
-    *stage:* JOY becomes happy
+    *stage:* JOY is happy
 
 b) Be gone, intrusive thoughts! Horny jail for you!
-    *stage:* JOY becomes angry
+    *stage:* JOY is angry
     UNLOCK ROMANCE OPTION 4B
