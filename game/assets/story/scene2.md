@@ -100,7 +100,7 @@ I'm just happy to help. Come by anytime.
 *stage:* FAITH approaches left and is happy.
 
 FAITH
-Thank you so much! Watching you work was inpsiring!
+Thank you so much! Watching you work was inspiring!
 
 *stage:* JOY is neutral
 
@@ -136,8 +136,8 @@ b) Slide into those DM's or else.
 
 JOY
 a) Right? This feels really cool!
-    JOY becomes happy
-
+    *stage:* JOY becomes happy
 
 b) Be gone, intrusive thoughts! Horny jail for you!
-    JOY becomes angry
+    *stage:* JOY becomes angry
+    UNLOCK ROMANCE OPTION 4B

@@ -64,13 +64,14 @@ Bad idea, right? Terrible idea, right?
 
 WOE
 a) He's cute! And free coffee!
-b) Wait, wait, wait... CLIENTS are on the table!
-c) NO SHOT! I've got work to do!
+b) NO SHOT! I've got work to do!
+IF UNLOCK ROMANCE OPTION 4B
+    c) Wait, wait, wait... CLIENTS are on the table!
 
 JOY
 a) Ok, fine. What's the literal worst that can happen?
-b) You're insane, you know that? But why not!
-c) Horny jail for me. Seems fair but unfair.
+b) Horny jail for me. Seems cruel, but necessary.
+c) You're insane, you know that? But why not!
 
 ---a) path ---
 
@@ -86,6 +87,20 @@ Sounds like a plan!
 
 ---b) path ---
 
+*stage:* JOY becomes angry.
+
+JOY
+The next client is coming. I've gotta go.
+
+*stage:* JOY exits right. IDOLA becomes sad and faces right.
+
+IDOLA
+What the hell just happened? Thanks, Obama.
+
+*stage:* IDOLA faces left, pauses, faces right, and exists.
+
+---c) path ---
+
 *stage:* JOY becomes happy.
 
 JOY
@@ -95,19 +110,5 @@ You know, I just remembered I need to powder my nose.
 
 IDOLA
 Rain check! I get it! Next week for sure!
-
-*stage:* IDOLA faces left, pauses, faces right, and exists.
-
----c) path ---
-
-*stage:* JOY becomes angry.
-
-JOY
-The next client is coming, so I'll be going.
-
-*stage:* JOY exits right. IDOLA becomes sad and faces right.
-
-IDOLA
-What the hell just happened?
 
 *stage:* IDOLA faces left, pauses, faces right, and exists.
