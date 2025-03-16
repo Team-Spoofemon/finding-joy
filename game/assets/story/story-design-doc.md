@@ -19,6 +19,7 @@
 - side
     - IDOLA - vet tech coworker, has an attitude matching that of a punchable face, date scene available
     - FAITH - client, sweetheart wtih dreams, date scene available
+        - BISCUITS - a mutt cat, has a big welt in their chest
     - WRATH - client, always on the phone
         - BUTTER - a golden retriever, has a big splinter in their paw
     - SLOTH - client, provides some levity
