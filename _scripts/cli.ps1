@@ -10,8 +10,20 @@ $ProjectDirpath = [IO.Path]::GetFullPath("$RenpyProjectRoot/$Project")
 
 function Run-Clean {
     Write-Host -ForegroundColor Cyan "Cleaning..."
-    Get-ChildItem -Path $ProjectDirpath -Recurse -Filter "*.rpyc" | ForEach-Object {
+
+    # delete persistent files
+    $ProjectPersistent = [IO.Path]::GetFullPath("$RenpyProjectRoot/$Project/game/saves/persistent")
+    if (Test-Path -Path $ProjectPersistent -ErrorAction SilentlyContinue) {
+        Write-Host $ProjectPersistent
+        Remove-Item $ProjectPersistent -Force
+    }
+    # this is a folder like "finding_joy-1740528823"
+    Get-ChildItem -Path "$env:APPDATA/Renpy" -Filter "$($Project -replace "-", "_")*" | ForEach-Object {
         Write-Host $_.FullName
+        Remove-Item $_.FullName -Recurse -Force
+    }
+
+    Get-ChildItem -Path $ProjectDirpath -Recurse -Filter "*.rpyc" | ForEach-Object {
         Remove-Item $_.FullName
     }
     Write-Host -ForegroundColor Yellow "Result: $LASTEXITCODE"

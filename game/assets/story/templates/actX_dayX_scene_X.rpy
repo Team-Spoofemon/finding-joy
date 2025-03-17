@@ -168,6 +168,31 @@ transform xflip:
     ease_elastic 0.5 xzoom -1.0 yzoom 1.0
 
 label debug_conversation:
+
+    show bg_PetCheap_ExamRoom:
+        matrixcolor TintMatrix("#ffffff") * SaturationMatrix(1.0)
+        linear 2.0 matrixcolor TintMatrix("#ffffff") * SaturationMatrix(0.0)
+
+    "petcheap saturated? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce interdum odio eget pharetra semper."
+
+    show bg_PetCheap_ExamRoom:
+        linear 2.0 matrixcolor TintMatrix("#ffffff") * SaturationMatrix(1.0)
+
+    "petcheap un saturated? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce interdum odio eget pharetra semper."
+
+    hide bg_PetCheap_ExamRoom
+
+    "moving joy is still there since it never went away... show statement just keeps adding images atop other images"
+
+    menu:
+        "petcheap un saturated? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce interdum odio eget pharetra semper. {fast}"
+
+        "how do i":
+            "first choice"
+        "display previous dialogue below, just figured it out, dont make it a choice...":
+            "first choice"
+
+
     show faith
     f "my name is faith"
 
