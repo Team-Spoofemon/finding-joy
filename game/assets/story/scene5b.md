@@ -85,6 +85,6 @@ JOY
 Yeah. This is how I will fix the world.
 
 WOE
-a) Yes.
+a) Yes!
 
 *stage:* FADE TO BLACK

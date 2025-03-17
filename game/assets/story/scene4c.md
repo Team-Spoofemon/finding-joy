@@ -24,13 +24,13 @@ b) We've been telling ourselves that for years, JOY...
     *stage:* JOY is sad
 
 
-c) Okay, I am really in some kind of *state*! These intrusive thoughts are crazy!
+c) Okay, I am really in some kind of *state*! Bad intrusive thoughts!
     *stage:* JOY is angry
 
 *stage:* JOY moves to the left.
 
 ???
-Hey, uh... is this where I can get an animal looked at?
+Hey, uh... is this where I'm supposed to go for pets?
 
 JOY
 Here we go...
@@ -47,15 +47,20 @@ SLOTH
 Oh uh, my name is SLOTH. Whats up?
 
 JOY
-Whats... up? What's up is you said your dog isn't feeling well?
+Whats... up? What's up is, you said your dog isn't feeling well?
 
 SLOTH
 I mean I'm not super sure. It's really hard to tell.
 
 JOY
-What do you mean its hard to tell--OH MY GOD!
+What do you mean its hard to tell--
 
-*stage:* GRAVY comes lumbering in, JOY is fear
+*stage:* JOY is fear
+
+JOY
+OH MY GOD!
+
+*stage:* GRAVY comes lumbering in
 
 JOY
 Hello?!

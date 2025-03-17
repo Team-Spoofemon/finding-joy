@@ -85,6 +85,6 @@ JOY
 Yeah. We're ok, right?
 
 WOE
-a) Yes.
+a) Yes!
 
 *stage:* FADE TO BLACK

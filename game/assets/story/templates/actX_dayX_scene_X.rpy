@@ -164,6 +164,9 @@ init python:
 
 define f = Character("faith", callback=bombomb_voice)
 
+transform xflip:
+    ease_elastic 0.5 xzoom -1.0 yzoom 1.0
+
 label debug_conversation:
     show faith
     f "my name is faith"
@@ -184,8 +187,7 @@ label debug_conversation:
 
     f "i am worried"
 
-
-    show faith worried:
+    show faith worried at xflip:
         animation
 
     f "sorry for spazzing"

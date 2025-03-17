@@ -67,6 +67,10 @@
 ## Dev Mechanics?
 - the last spoken dialogue should still display for the player
 - JOY turns to WOE: desaturate the background and have JOY face the player with an appropriate facial expression
+- splash screen
+- credits
+- custom gui?
+- custom character background text image (each Character(window_background))
 - "wiggle" / "bounce" animation
     - every time a character talks, make sure the sprite wiggles to show they're doing something
     - when joy gets close to an animal and "fixes" them, the two sprites need to jiggle together to portray activity
@@ -78,6 +82,7 @@
 
 
 # Needed Assets:
+- splash screen
 - music:
     - can we get some folley? things like a veterinarian office or a coffee shop, or that kind of thing?
     - maybe a leitmotif for every scenario? so scene 1, 2, 3, 4, 5 all get leitmotifs? (even if that's just a retrograde or inversion or harmony)
@@ -86,6 +91,7 @@
     - JoyHouse_Bedroom
 - characters
     - JOY
+        - gui/textbox.png ?
         - 4 basic emotions:
             1. happiness
             2. sadness
@@ -97,22 +103,28 @@
             3. tired
             4. surprised
     - FAITH
+        - gui/textbox.png ?
         - happy
         - thinking
         - fear
         - neutral
     - BISCUITS
+        - gui/textbox.png ?
         - make the welt BIG
     - WRATH (formerly KELLY)
+        - gui/textbox.png ?
         - happy (we have)
         - anger
     - BUTTER - a golden retriever
+        - gui/textbox.png ?
         - happy
         - fear
         - distressed (has a BIG splinter in their paw)
     - SLOTH - client, a derpy human (formerly IDIOT, we can leave them as is)
+        - gui/textbox.png ?
         - actually only has neutral. (or variations of derp?)
     - GRAVY - a derpy dog, has something comically big stuck in its neck (its not in severe pain tho)
+        - gui/textbox.png ?
         - happy - in this case, just the same dog smiling without the hiliarios neck (also their neck is really thin?)
         - fear
         - distressed (we have already)
