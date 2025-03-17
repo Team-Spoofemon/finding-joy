@@ -1,8 +1,12 @@
+<#
+https://www.renpy.org/doc/html/cli.html
+#>
+
 [CmdletBinding()]
 param (
     [Parameter()][String]$RenpyProjectRoot = "$PSScriptRoot\..\..\",
     [Parameter()][String]$Project = "finding-joy",
-    [Parameter(Mandatory=$true)][String][ValidateSet("clean", "lint", "ogg", "run")]$Action,
+    [Parameter(Mandatory=$true)][String][ValidateSet("clean", "lint", "ogg", "run", "build")]$Action,
     [Parameter()][switch]$Force
 )
 
@@ -57,6 +61,17 @@ function Run-Run {
         --errors-in-editor
 }
 
+function Run-Build {
+    Write-Host -ForegroundColor Cyan "Building..."
+    & "C:\tools\renpy-8.3.4-sdk\lib\py3-windows-x86_64\pythonw.exe"  `
+        "C:\tools\renpy-8.3.4-sdk\renpy.py"  `
+        $ProjectDirpath  `
+        compile  `
+        --keep-orphan-rpyc  `
+        "$ProjectDirpath\game\saves\navigation.json"  `
+        --errors-in-editor
+}
+
 
 
 function Convert-Ogg {
@@ -99,15 +114,6 @@ function Convert-Ogg {
 }
 
 
-# run the game at all
-# C:\tools\renpy-8.3.4-sdk\lib\py3-windows-x86_64\pythonw.exe
-#     C:\tools\renpy-8.3.4-sdk\renpy.py
-#     "E:\Shared drives\Team Spoofymon\renpy_projects\finding_joy"
-#     --json-dump
-#     "E:\Shared drives\Team Spoofymon\renpy_projects\finding_joy\game\saves\navigation.json"
-#     --errors-in-editor
-
-
 if ($Action.ToLower() -eq "clean") {
     Run-Clean
 } elseif ($Action.ToLower() -eq "lint") {
@@ -118,6 +124,10 @@ if ($Action.ToLower() -eq "clean") {
 } elseif ($Action.ToLower() -eq "run") {
     Run-Clean
     Run-Run
+} elseif ($Action.ToLower() -eq "build") {
+    # TODO: doesnt actually build anything, just "compile" and no outputs. maybe gui is the only way.
+    Run-Clean
+    Run-Build
 }
 
 

@@ -67,10 +67,6 @@
 ## Dev Mechanics?
 - the last spoken dialogue should still display for the player
 - JOY turns to WOE: desaturate the background and have JOY face the player with an appropriate facial expression
-- game icon
-- splash screen
-- credits
-- custom gui?
 - custom character background text image (each Character(window_background))
 - "wiggle" / "bounce" animation
     - every time a character talks, make sure the sprite wiggles to show they're doing something
@@ -83,9 +79,6 @@
 
 
 # Needed Assets:
-- game icon
-- splash screen
-- credits
 - music:
     - can we get some folley? things like a veterinarian office or a coffee shop, or that kind of thing?
     - maybe a leitmotif for every scenario? so scene 1, 2, 3, 4, 5 all get leitmotifs? (even if that's just a retrograde or inversion or harmony)
@@ -131,4 +124,8 @@
         - happy - in this case, just the same dog smiling without the hiliarios neck (also their neck is really thin?)
         - fear
         - distressed (we have already)
-
+- misc:
+    - game icon - `config.window_icon` + `icon.ico/icon.icns` which needs to be copied into the build folders 1 level up
+    - splash screen
+    - credits / about text
+    - custom gui?

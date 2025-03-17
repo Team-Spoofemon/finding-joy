@@ -197,7 +197,6 @@ init python:
     build.documentation('*.html')
     build.documentation('*.txt')
 
-    config.developer = True  # enable shift + r and shift + d, shift + o for console???
 
 
 ## A Google Play license key is required to perform in-app purchases. It can be
@@ -211,3 +210,5 @@ init python:
 ## by a slash.
 
 # define build.itch_project = "renpytom/test-project"
+
+define config.developer = True  # enable shift + r, shift + d for developer menu, shift + o for console
