@@ -1,4 +1,16 @@
+screen alpha_magic:
+    add Appearing("assets/characters/FAITH/sprite_FAITH_front.png", 100, 200):
+        xalign 0.5
+        yalign 0.5
+
 label start:
+    show screen alpha_magic
+
+    "Can you find the logo?"
+
+    return
+
+label start1:
     stop music fadeout 1.0  # from the menu
 
     # call debug
