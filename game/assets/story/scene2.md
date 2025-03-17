@@ -40,7 +40,7 @@ Oh my god, are you the vet?
 JOY
 Yes I am, how can I help you?
 
-*stage:* FAITH is fearful.
+*stage:* FAITH is fear.
 
 FAITH
 I'm Faith and this is BISCUITS--there's something inside his chest!

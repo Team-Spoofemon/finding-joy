@@ -1,4 +1,4 @@
-# scene 1: JOY arrives at reception, runs into WRATH, solves their pet issue
+# scene 1: JOY arrives at reception, runs into KELLY, solves their pet issue
 
 *stage:* JOY enters from the right happily and is ready to start the day.
 
@@ -35,7 +35,7 @@ Yeah, yeah, yeah, I'll be right there!
 JOY
 Looks like we've got the first client already?
 
-*stage:* WRATH and BUTTER enter from the right
+*stage:* KELLY and BUTTER enter from the right
 
 ???
 Fix what you broke, you hear me?
@@ -43,22 +43,22 @@ Fix what you broke, you hear me?
 JOY
 Uh, yes. I sure do. What seems to be the problem?
 
-*stage:* WRATH turns to the right. WRATH is angry.
+*stage:* KELLY turns to the right. KELLY is angry.
 
-WRATH
-My name's WRATH, damnit! Just fix it!
+KELLY
+My name's KELLY, damnit! Just fix it!
 
 JOY
 Fix... what exactly?
 
-*stage:* WRATH turns to the left. WRATH is happy.
+*stage:* KELLY turns to the left. KELLY is happy.
 
-WRATH
+KELLY
 I wasn't talking to you! Fix my BUTTER--and you!
 
-*stage:* WRATH turns to the right. WRATH is angry.
+*stage:* KELLY turns to the right. KELLY is angry.
 
-WRATH
+KELLY
 Fix what you broke!
 
 *stage:* JOY is fearful
@@ -78,7 +78,7 @@ b) In and out. Lets go, quick...
 JOY
 You're right.
 
-*stage:* JOY moves to the center, BUTTER moves to the center, WRATH turns to the left, WRATH is angry, JOY is happy
+*stage:* JOY moves to the center, BUTTER moves to the center, KELLY turns to the left, KELLY is angry, JOY is happy
 
 JOY
 Hi there, BUTTER! What seems to be the problem?
@@ -86,7 +86,7 @@ Hi there, BUTTER! What seems to be the problem?
 JOY
 Ah there's a splinter in your paw.
 
-WRATH
+KELLY
 There's something wrong with your head, isn't there?!
 
 *stage:* JOY and BUTTER shake
@@ -96,7 +96,7 @@ Almost...
 
 *stage:* JOY and BUTTER shake
 
-WRATH
+KELLY
 Well it's not my problem!
 
 JOY
@@ -112,31 +112,31 @@ Got it! We're all set to go--?
 BUTTER
 Bark! Bark!
 
-*stage:* WRATH is still turned to the right.
+*stage:* KELLY is still turned to the right.
 
-WRATH
+KELLY
 Oh you fixed it? Finally?
 
 JOY
 Yes, we did.
 
-*stage:* WRATH turns to the left.
+*stage:* KELLY turns to the left.
 
-WRATH
+KELLY
 Not you, you stupid--oh! BUTTER, you're all fixed!
 
 JOY
 Yes. That's what I've been trying to say.
 
-WRATH
+KELLY
 Bravo, five stars! Let's go sweetie and--
 
-*stage:* WRATH turns to the right
+*stage:* KELLY turns to the right
 
-WRATH
+KELLY
 If I come back and its not fixed, you'll be sorry!
 
-*stage:* WRATH and BUTTER exit right
+*stage:* KELLY and BUTTER exit right
 
 JOY
 Goodness... what a start to the day.

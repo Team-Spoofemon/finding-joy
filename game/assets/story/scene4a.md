@@ -1,16 +1,16 @@
-# scene 4a: JOY and IDOLA, coffee shop, date scene, guaranteed ends poorly
+# scene 4a: JOY and SID, coffee shop, date scene, guaranteed ends poorly
 
-*stage:* JOY and IDOLA enter from the right, (IDOLA first). IDOLA ends up on the right.
+*stage:* JOY and SID enter from the right, (SID first). SID ends up on the right.
 
-*stage:* IDOLA is angry.
+*stage:* SID is angry.
 
-IDOLA
+SID
 Man, the coffee is pricey and they still want tips?
 
 JOY
 What's wrong with tips?
 
-IDOLA
+SID
 Prices are high, so business is doing fine! No tips needed!
 
 *stage:* JOY is thinking.
@@ -18,9 +18,9 @@ Prices are high, so business is doing fine! No tips needed!
 JOY
 PetCheap is doing fine, but we're not. Tips would be nice, right?
 
-*stage:* IDOLA is neutral.
+*stage:* SID is neutral.
 
-IDOLA
+SID
 But when taxes go down they'll give us more money!
 
 *stage:* JOY is neutral.
@@ -28,15 +28,15 @@ But when taxes go down they'll give us more money!
 JOY
 Taxes will go down? When is that happening?
 
-IDOLA
+SID
 Yep! Right after all the waste and abuse gets thrown out!
 
 JOY
 The waste and abuse, huh?
 
-*stage:* IDOLA is happy.
+*stage:* SID is happy.
 
-IDOLA
+SID
 The right person is in charge! Good things are finally happening!
 
 *stage:* JOY is angry.
@@ -44,7 +44,7 @@ The right person is in charge! Good things are finally happening!
 JOY
 What kind of good things?
 
-IDOLA
+SID
 All of the wrong people are getting out of the way. It's a new age.
 
 *stage:* JOY is sad.
@@ -52,9 +52,9 @@ All of the wrong people are getting out of the way. It's a new age.
 JOY
 That's one way of looking at it.
 
-*stage:* IDOLA is thinking.
+*stage:* SID is thinking.
 
-IDOLA
+SID
 You're interested in this kind of stuff?
 
 *stage:* JOY is neutral.
@@ -62,9 +62,9 @@ You're interested in this kind of stuff?
 JOY
 Of course. What happens over there affects over here.
 
-*stage:* IDOLA is happy.
+*stage:* SID is happy.
 
-IDOLA
+SID
 Sure, sure--but isn't this nice? We could do this every day, just you and me!
 
 *stage:* JOY is fear.
@@ -72,9 +72,9 @@ Sure, sure--but isn't this nice? We could do this every day, just you and me!
 JOY
 Tempting offer--
 
-*stage:* IDOLA is happy.
+*stage:* SID is happy.
 
-IDOLA
+SID
 Such a good offer! Coffee, I pay for food--
 
 *stage:* JOY is angry.
@@ -82,17 +82,17 @@ Such a good offer! Coffee, I pay for food--
 JOY
 I mean it's a tempting offer, but I'll have to pass.
 
-*stage:* IDOLA is neutral.
+*stage:* SID is neutral.
 
-IDOLA
+SID
 Huh?
 
-IDOLA
+SID
 What do you mean?
 
-*stage:* IDOLA is angry.
+*stage:* SID is angry.
 
-IDOLA
+SID
 After I paid for coffee, what do you mean "you'll pass"?
 
 *stage:* JOY is sad.
@@ -100,7 +100,7 @@ After I paid for coffee, what do you mean "you'll pass"?
 JOY
 I mean that this thing is a one-time thing.
 
-IDOLA
+SID
 You little... how can you be so ungrateful?
 
 *stage:* JOY is angry.
@@ -108,7 +108,7 @@ You little... how can you be so ungrateful?
 JOY
 Excuse me?
 
-IDOLA
+SID
 I set this up and I did everything right!
 
 *stage:* JOY is fear.
@@ -116,7 +116,7 @@ I set this up and I did everything right!
 JOY
 Um.
 
-IDOLA
+SID
 What? Are you just too good for me or something?
 
 *stage:* JOY turns to WOE.
@@ -134,15 +134,15 @@ a)
     *stage:* JOY is happy
 
     JOY
-    IDOLA.
+    SID.
 
-    IDOLA
+    SID
     What?
 
     JOY
     Not knowing how things work isn't sexy.
 
-    *stage:* IDOLA is sad
+    *stage:* SID is sad
 
     JOY
     Goodbye.
@@ -154,10 +154,10 @@ b)
     JOY
     I'm really sorry--I just don't think we would work well together.
 
-    IDOLA
+    SID
     What?
 
-    *stage:* IDOLA is sad
+    *stage:* SID is sad
 
     JOY
     See you at work tomorrow.
@@ -169,23 +169,23 @@ c)
     JOY
     The VSGA.
 
-    IDOLA
+    SID
     What the fuck is that?
 
     JOY
     The fucking Veterinary Services Grant Program. It's part of USDA. And one billion just got cancelled.
 
-    *stage:* IDOLA is sad
+    *stage:* SID is sad
 
-    IDOLA
+    SID
     Wait no... PetCheap doesn't!
 
     JOY
     We're the waste and abuse.
 
-    *stage:* IDOLA is angry
+    *stage:* SID is angry
 
-    IDOLA
+    SID
     Wait no... you lie!
 
     *stage:* JOY is thinking
@@ -193,9 +193,9 @@ c)
     JOY
     I wonder when I'll see your ass at unemployment with me?
 
-    *stage:* IDOLA is sad
+    *stage:* SID is sad
 
-    IDOLA
+    SID
     They're only going after criminals! Not me!
 
     *stage:* JOY is angry
@@ -204,19 +204,19 @@ c)
     Maybe you can ask me out next time--when we're in line together.
 
 
-*stage:* JOY exits to the left offscreen, IDOLA is angry.
+*stage:* JOY exits to the left offscreen, SID is angry.
 
-IDOLA
+SID
 So now I'm stuck with the bill?
 
-*stage:* IDOLA is angry
+*stage:* SID is angry
 
-IDOLA
+SID
 Thanks a lot, feminism! Where's the equity here?
 
-*stage:* IDOLA is sad
+*stage:* SID is sad
 
-IDOLA
+SID
 This is some dee-ee-aye bullshit!
 
 *stage:* SHOPKEEPER approaches from the left facing right and ends up in the center.
@@ -224,23 +224,23 @@ This is some dee-ee-aye bullshit!
 SHOPKEEPER
 Excuse me sir?
 
-*stage:* IDOLA is angry
+*stage:* SID is angry
 
-IDOLA
+SID
 What?
 
 SHOPKEEPER
 The kind lady who just left gave us five dollars cash.
 
-*stage:* IDOLA is neutral
+*stage:* SID is neutral
 
-IDOLA
+SID
 What?
 
 SHOPKEEPER
 Would you like your refund as credits or sent to your card?
 
-*stage:* IDOLA is sad
+*stage:* SID is sad
 
-IDOLA
+SID
 Card, please.

@@ -1,4 +1,4 @@
-# scene 5a: JOY enters bedroom, they found joy in turning IDOLA down and having values
+# scene 5a: JOY enters bedroom, they found joy in turning SID down and having values
 
 *stage:* JOY and enters from the left
 

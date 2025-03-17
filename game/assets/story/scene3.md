@@ -1,4 +1,4 @@
-# scene 3: JOY enters break room, IDOLA suggests JOY should go out on a date, choses between asking IDOLA, FAITH, or refusing
+# scene 3: JOY enters break room, SID suggests JOY should go out on a date, choses between asking SID, FAITH, or refusing
 
 *stage:* JOY enters from the right and ends up on the left looking left.
 
@@ -11,28 +11,28 @@ Did someone say character?
 *stage:* JOY turns to WOE
 
 JOY
-Oh, here we go. It's the tech IDOLA...
+Oh, here we go. It's the tech SID...
 
-*stage:* JOY turns to the right. IDOLA enters from the right.
+*stage:* JOY turns to the right. SID enters from the right.
 
-IDOLA
+SID
 If you're looking for character, look no further!
 
 JOY
-Very funny, IDOLA.
+Very funny, SID.
 
-IDOLA
+SID
 Hey, your words, JOY!
 
 *stage:* JOY turns to the left.
 
-IDOLA
+SID
 There's this great coffee place next door! Let's check it out!
 
 JOY
 ...
 
-IDOLA
+SID
 Well?
 
 *stage:* JOY is fearful.
@@ -40,13 +40,13 @@ Well?
 JOY
 Are you... asking me out?
 
-IDOLA
+SID
 Now you get the idea! Whaddya say?
 
 JOY
 We're coworkers! Why would you ask me out?
 
-IDOLA
+SID
 PetCheap doesnt have a fraternization policy!
 
 *stage:* JOY is neutral.
@@ -54,7 +54,7 @@ PetCheap doesnt have a fraternization policy!
 JOY
 You're kidding.
 
-IDOLA
+SID
 Yup! Coworkers and clients are even on the table! Whaddya say?
 
 *stage:* JOY turns to WOE.
@@ -80,10 +80,10 @@ c) You're insane, you know that? But why not!
 JOY
 Looks like we're getting coffee.
 
-IDOLA
+SID
 Sounds like a plan!
 
-*stage:* JOY and IDOLA exit right together.
+*stage:* JOY and SID exit right together.
 
 ---b) path ---
 
@@ -92,12 +92,12 @@ Sounds like a plan!
 JOY
 The next client is coming. I've gotta go.
 
-*stage:* JOY exits right. IDOLA is sad and faces right.
+*stage:* JOY exits right. SID is sad and faces right.
 
-IDOLA
+SID
 What the hell just happened? Thanks, Obama.
 
-*stage:* IDOLA faces left, pauses, faces right, and exists.
+*stage:* SID faces left, pauses, faces right, and exists.
 
 ---c) path ---
 
@@ -106,9 +106,9 @@ What the hell just happened? Thanks, Obama.
 JOY
 You know, I just remembered I need to powder my nose.
 
-*stage:* JOY exits right. IDOLA is sad and faces right.
+*stage:* JOY exits right. SID is sad and faces right.
 
-IDOLA
+SID
 Rain check! I get it! Next week for sure!
 
-*stage:* IDOLA faces left, pauses, faces right, and exists.
+*stage:* SID faces left, pauses, faces right, and exists.
