@@ -13,7 +13,7 @@ label scene3:
 
     QUESTION "Did someone say character?"
 
-    JOY "Oh, here we go. It's the tech SID..."
+    JOY "Oh, here we go. It's the tech..."
 
     # *stage:* JOY turns to the right. SID enters from the right.
     show sprite_JOY_neutral:
@@ -24,9 +24,9 @@ label scene3:
 
     SID "If you're looking for character, look no further!"
 
-    JOY "Very funny, SID."
+    JOY "Very funny."
 
-    SID "Hey, your words, JOY!"
+    SID "Hey, your words!"
 
     # *stage:* JOY turns to the left.
     show sprite_JOY_neutral:
@@ -41,6 +41,7 @@ label scene3:
     # *stage:* JOY is fear.
     show sprite_JOY_neutral:
         flip_face_left_to_right
+    pause 0.5
     hide sprite_JOY_neutral
     show sprite_JOY_fear:
         align_left_human
@@ -76,11 +77,11 @@ label scene3:
     show sprite_JOY_fear:
         align_left_human
 
-    JOY "Bad idea, right? Dating SID is a terrible idea, right?"
+    JOY "Bad idea, right? Dating this guy is a terrible idea, right?"
 
     # WOE
     menu:
-        JOY "Bad idea, right? Dating SID is a terrible idea, right? {fast}"  # FEATURE: view prior dialogue
+        JOY "Bad idea, right? Dating this guy is a terrible idea, right? {fast}"  # FEATURE: view prior dialogue
 
         "He's cute! And free coffee!":
             $ choice = choices['scene3'] = 'sid'
@@ -92,7 +93,7 @@ label scene3:
             JOY "Horny jail for me. Seems cruel, but necessary."
             jump scene3_common
 
-        "Wait, wait, wait... CLIENTS are on the table!":
+        "Wait... then Faith is an option!":
             # IF UNLOCK ROMANCE OPTION 4B
             #     c) Wait, wait, wait... CLIENTS are on the table!
             $ choice = choices['scene3'] = 'faith'

@@ -1,4 +1,4 @@
-define SID = Character("SID", color="#a8bfcb")
+define SID = Character("Sid", color="#a8bfcb")
 
 # emotions
 # image sprite_SID_happy = "assets/characters/SID/sprite_SID_happy.png"

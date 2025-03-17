@@ -23,11 +23,13 @@ transform align_right_human:
 
 
 transform flip_face_right_to_left:
-    ease_elastic 0.5 xzoom -1.0 yzoom 1.0
+    # https://www.renpy.org/doc/html/transforms.html#warpers
+    # https://easings.net/
+    easein_quint 0.5 xzoom -1.0 yzoom 1.0
 
 
 transform flip_face_left_to_right:
-    ease_elastic 0.5 xzoom 1.0 yzoom 1.0
+    easein_quint 0.5 xzoom 1.0 yzoom 1.0
 
 
 transform desaturate:
