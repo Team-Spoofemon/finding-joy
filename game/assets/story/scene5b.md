@@ -13,7 +13,7 @@ Kinda crazy I'm even allowed a good time these days.
 *stage:* JOY walks to the right, JOY is sad
 
 JOY
-Do I deserve this? Do I deserve even a little happiness?
+Do I deserve this? Do I deserve even a little happy?
 
 WOE
 a) It's too good to be true.
@@ -23,7 +23,7 @@ c) Happiness is a fickle thing.
 JOY
 a) Maybe, but I do want to believe it is true.
 b) I want to believe that.
-c) I'd like to believe I can find happiness though.
+c) I'd like to believe I can find happy though.
 
 *stage:* JOY is fear.
 

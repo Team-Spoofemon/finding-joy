@@ -367,12 +367,12 @@ screen main_menu():
         python:
             import json
 
-        $ thechoice = json.dumps(data).replace('{', '{{')
+        $ choices_str = json.dumps(choices).replace('{', '{{')
 
         vbox:
             style "main_menu_vbox"
 
-            text "variable data: [thechoice]"
+            text "variable choices: [choices_str]"
 
             text "[config.name!t]":
                 style "main_menu_title"

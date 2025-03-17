@@ -1,3 +1,46 @@
+
+transform moveright:
+    linear 0.6 xpos 0.5
+
+
+transform exit_right:
+    linear 1.0 xpos 1.5
+
+
+transform exit_left:
+    linear 1.0 xpos -0.5
+
+transform align_left_human:
+    # xpos 0.1
+    xalign 0.1
+    yalign 1.0
+
+
+transform align_right_human:
+    # xpos 0.2
+    xalign 0.9
+    yalign 1.0
+
+
+transform flip_face_right_to_left:
+    ease_elastic 0.5 xzoom -1.0 yzoom 1.0
+
+
+transform flip_face_left_to_right:
+    ease_elastic 0.5 xzoom 1.0 yzoom 1.0
+
+
+transform desaturate:
+    matrixcolor TintMatrix("#ffffff") * SaturationMatrix(1.0)
+    linear 0.6 matrixcolor TintMatrix("#ffffff") * SaturationMatrix(0.0)
+    linear 0.6 blur 10
+
+
+transform resaturate:
+    linear 0.6 blur 0
+    linear 0.6 matrixcolor TintMatrix("#ffffff") * SaturationMatrix(1.0)
+
+
 label animate_bg_fadetoblack(delay=0.5):
     scene black with fade
     $ renpy.pause (delay, hard=True)

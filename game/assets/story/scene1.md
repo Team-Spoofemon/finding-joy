@@ -61,7 +61,7 @@ I wasn't talking to you! Fix my BUTTER--and you!
 KELLY
 Fix what you broke!
 
-*stage:* JOY is fearful
+*stage:* JOY is fear
 
 JOY
 What the hell?

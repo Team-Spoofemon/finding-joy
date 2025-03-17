@@ -1,16 +1,12 @@
 label start:
+    stop music fadeout 1.0  # from the menu
 
-    call debug
+    jump scene3
 
-    # call act1_day3_scene1
-    # call act1_day3_scene4
-    # call act1_day3_scene5
-    # call act1_day3_scene6
 
     return
 
 label debug:
-    stop music fadeout 1.0  # from the menu
     call debug_animation
     call debug_conversation
     # call actX_dayX_scene_X_style1

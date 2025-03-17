@@ -8,8 +8,6 @@ I am exhausted! Colorful characters everywhere!
 ???
 Did someone say character?
 
-*stage:* JOY turns to WOE
-
 JOY
 Oh, here we go. It's the tech SID...
 
@@ -35,7 +33,7 @@ JOY
 SID
 Well?
 
-*stage:* JOY is fearful.
+*stage:* JOY is fear.
 
 JOY
 Are you... asking me out?
