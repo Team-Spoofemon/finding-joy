@@ -32,10 +32,10 @@
 ## Emotions (some relevant per character, not all)
 - people
     - 4 basic emotions:
-        1. happiness
-        2. sadness
+        1. happy
+        2. sad
         3. fear
-        4. anger
+        4. angry
     - 4 states:
         1. neutral
         2. thinking - https://emojipedia.org/face-with-raised-eyebrow
@@ -96,7 +96,7 @@
     - 5a,b,c is different depending on the choice
 - music
     - atmosphere
-        - scene 1, 3 - office sounds, photocopier noises, telephone rining, coffee pots, boiling water
+        - scene 1, 3 - office sounds, photocopier noises, telephone ringing, coffee pots, boiling water
         - scene 2/4c - hospital sounds like beeps, tools clacking on metal, curtains being drawn
         - scene 5a,b,c - evening sounds like crickets or a fireplace
 - art:
@@ -104,17 +104,17 @@
         - characters
             - JOY based on [sprite_JOY_front](../../../game/assets/characters/JOY/sprite_JOY_front.png)
                 - 4 basic emotions:
-                    1. happiness
-                    2. sadness
+                    1. happy
+                    2. sad
                     3. fear
-                    4. anger
+                    4. angry
                 - 4 states:
-                    1. neutral
+                    1. neutral - change the current image to "neutral"
                     2. thinking - https://emojipedia.org/face-with-raised-eyebrow
                     3. tired
                     4. surprised
-                - casual (done, but unknown emotion)
-                - formal (low priority)
+                - clothing
+                    - formal (low priority)
             - FAITH based on [sprite_FAITH_front](../../../game\assets\characters\FAITH\sprite_FAITH_front.png) which will be renamed to `sprite_FAITH_happy`
                 - thinking
                 - neutral
@@ -122,7 +122,7 @@
                 - distress based on [sprite_BISCUITS_worried](../../../game\assets\characters\FAITH\BISCUITS\sprite_BISCUITS_worried.png), make the welt BIG
             - KELLY based on [sprite_KELLY_front](../../../game\assets\characters\KELLY\sprite_KELLY_front.png)
                 - happy - remove the `kelly` name tag
-                - anger - make her expression LIVID even exaggerated
+                - angry - make her expression LIVID even exaggerated
     - lee
         - backgrounds:
             - PetCheap_BreakRoom - a small office breakroom with a coffee pot and some keurig cups, see [break room](../../../misc/break-room.jpg)
@@ -143,7 +143,7 @@
     - every time a character talks, make sure the sprite wiggles to show they're doing something
 - when joy gets close to an animal and "fixes" them, the two sprites need to jiggle together to portray activity
 - music
-    - 4 emotions music, especially anger when something angry happens it would be good to have a "tense" music playing
+    - 4 emotions music, especially angry when something angry happens it would be good to have a "tense" music playing
     - maybe a leitmotif for every scenario? so scene 1, 2, 3, 4, 5 all get leitmotifs? (even if that's just a retrograde or inversion or harmony)
     - folley for specific moments like taking a splinter out of a paw, sitting down at a coffee shop, etc.
 - misc:

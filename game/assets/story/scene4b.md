@@ -117,7 +117,7 @@ a)
     JOY
     I don't want you to get into helping animals just to get disappointed like me.
 
-    *stage:* FAITH is sadness
+    *stage:* FAITH is sad
 
     FAITH
     Are you disappointed?

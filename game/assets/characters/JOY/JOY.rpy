@@ -1,15 +1,37 @@
-define JOY = Character("Joy", color="#c8ffc8")
-define music_JOY_theme = "assets/characters/JOY/04 - Professor Oak.ogg"
-image sprite_JOY_front = "assets/characters/JOY/sprite_JOY_front.png"
-# TODO:
-# image sprite_JOY_frustrated =
-# image sprite_JOY_happy =
-# image sprite_JOY_confident =
-# image sprite_JOY_mad =
-# image sprite_JOY_unsure =
-# image sprite_JOY_calm =
-# image sprite_JOY_nervous =
-# image sprite_JOY_curious =
-# image sprite_JOY_flirty =
-# image sprite_JOY_annoyed =
-# image sprite_JOY_sad =
+define JOY = Character("Joy", color="#8ddee5")
+
+# emotions
+image sprite_JOY_happy = "assets/characters/JOY/sprite_JOY_happy.png"
+image sprite_JOY_sad = "assets/characters/JOY/sprite_JOY_sad.png"
+image sprite_JOY_fear = "assets/characters/JOY/sprite_JOY_fear.png"
+image sprite_JOY_angry = "assets/characters/JOY/sprite_JOY_angry.png"
+
+# states
+image sprite_JOY_neutral = "assets/characters/JOY/sprite_JOY_neutral.png"
+image sprite_JOY_thinking = "assets/characters/JOY/sprite_JOY_thinking.png"
+image sprite_JOY_tired = "assets/characters/JOY/sprite_JOY_tired.png"
+image sprite_JOY_surprised = "assets/characters/JOY/sprite_JOY_surprised.png"
+
+
+
+# we may go down this route if time permits
+# layeredimage JOY_CHAR:
+#     always:
+#         "assets/characters/JOY/sprite_JOY_neutral.png"
+#     group emotions:
+#         attribute neutral:
+#             "assets/characters/FAITH/sprite_FAITH_happy.png"
+#         attribute happy:
+#             "assets/characters/FAITH/sprite_FAITH_happy.png"
+#         attribute sad:
+#             "assets/characters/FAITH/sprite_FAITH_worried.png"
+#         attribute fear:
+#             "assets/characters/FAITH/sprite_FAITH_fear.png"
+#         attribute angry:
+#             "assets/characters/FAITH/sprite_FAITH_angry.png"
+#         attribute thinking:
+#             "assets/characters/FAITH/sprite_FAITH_thinking.png"
+#         attribute tired:
+#             "assets/characters/FAITH/sprite_FAITH_tired.png"
+#         attribute surprised:
+#             "assets/characters/FAITH/sprite_FAITH_surprised.png"

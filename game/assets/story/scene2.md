@@ -14,7 +14,7 @@ c) Why not join the crazy, like the Joker?
 
 JOY
 a) Dear god in heaven, no!
-    *stage:* JOY is fearful
+    *stage:* JOY is fear
 
 
 b) We can survive, I know it!
@@ -53,7 +53,7 @@ Poor thing...
 FAITH
 Whats wrong? Are they going to be okay?
 
-*stage:* JOY is fearful.
+*stage:* JOY is fear.
 
 JOY
 Your BISCUITS has a botfly, but they're going to be just fine!

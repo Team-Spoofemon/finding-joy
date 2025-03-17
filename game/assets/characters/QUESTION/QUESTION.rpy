@@ -1,1 +1,1 @@
-define QUESTION = Character("???", color="#DEADBEEF")
+define QUESTION = Character("???", color="#FFF")
