@@ -50,6 +50,11 @@ label .subscene_2:
     return
 
 
+# helper "functions"
+label set_choice(key, value):
+    $ data[key] = value
+    return
+
 # another way to do choice
 label actX_dayX_scene_X_style2:
     '''
@@ -58,18 +63,14 @@ label actX_dayX_scene_X_style2:
     '''
     menu:
         "A)":
-            call .set_choice("variable_replace", "A")
+            call set_choice("variable_replace", "A")
 
         "B)":
-            call .set_choice("variable_replace", "B")
+            call set_choice("variable_replace", "B")
 
     JOY "Picked [data['variable_replace']]"
     return
 
-    # helper "functions"
-    label .set_choice(key, value):
-        $ data[key] = value
-        return
 
 # label templates_scene_X:
 #     play music music_pokemon_center fadeout 0.3 fadein 0.3

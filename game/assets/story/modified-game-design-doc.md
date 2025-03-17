@@ -67,6 +67,7 @@
 ## Dev Mechanics?
 - the last spoken dialogue should still display for the player
 - JOY turns to WOE: desaturate the background and have JOY face the player with an appropriate facial expression
+- game icon
 - splash screen
 - credits
 - custom gui?
@@ -82,7 +83,9 @@
 
 
 # Needed Assets:
+- game icon
 - splash screen
+- credits
 - music:
     - can we get some folley? things like a veterinarian office or a coffee shop, or that kind of thing?
     - maybe a leitmotif for every scenario? so scene 1, 2, 3, 4, 5 all get leitmotifs? (even if that's just a retrograde or inversion or harmony)
