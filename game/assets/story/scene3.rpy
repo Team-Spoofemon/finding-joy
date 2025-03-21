@@ -128,6 +128,10 @@ label scene3_common:
         show sprite_JOY_neutral:
             exit_right
 
+        pause 1.0 # let the animations complete
+
+        jump scene4a
+
     elif choice == 'work':
         # *stage:* JOY is angry.
         show sprite_JOY_angry:
