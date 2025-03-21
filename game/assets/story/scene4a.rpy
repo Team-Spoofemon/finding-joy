@@ -2,10 +2,10 @@
 
 label scene4a:
 
-    scene black
+    scene black with fade
     $ renpy.pause (1.0, hard=True)
 
-    scene bg_CoffeeShop
+    scene bg_CoffeeShop with fade
 
     show sprite_SID_neutral with moveinright:
         align_right_human
