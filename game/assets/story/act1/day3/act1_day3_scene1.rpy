@@ -1,8 +1,5 @@
 # Start of Act 1, Day 3, Scene 1
 # JOY services FAITH who comes in with her cat who has a botfly infection
-transform moveright:
-    linear 0.6 xpos 0.5
-
 label act1_day3_scene1:
 
     play music music_theme2
@@ -26,7 +23,7 @@ label act1_day3_scene1:
 
     JOY "Yes I'm here Susan! Can you show the patient in?"
 
-    show sprite_FAITH_front with moveinright:
+    show sprite_FAITH_neutral with moveinright:
         xalign 0.85
         yalign 1.0
 
@@ -34,15 +31,15 @@ label act1_day3_scene1:
 
     JOY "Yes I am, how can I help you?"
 
-    show sprite_FAITH_worried:
+    show sprite_FAITH_fear:
         xalign 0.85
         yalign 1.0
-    hide sprite_FAITH_front
+    hide sprite_FAITH_neutral
 
 
     FAITH "I'm Faith and this is Biscuits--there's something alive inside my cat's chest!!"
 
-    show sprite_BISCUITS_worried with moveinright:
+    show sprite_BISCUITS_fear with moveinright:
         # put biscuits on the table
         xalign 0.70
         yalign 0.62

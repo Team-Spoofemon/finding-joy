@@ -24,7 +24,7 @@ image sprite_JOY_surprised = "assets/characters/JOY/sprite_JOY_surprised.png"
 #         attribute happy:
 #             "assets/characters/FAITH/sprite_FAITH_happy.png"
 #         attribute sad:
-#             "assets/characters/FAITH/sprite_FAITH_worried.png"
+#             "assets/characters/FAITH/sprite_FAITH_fear.png"
 #         attribute fear:
 #             "assets/characters/FAITH/sprite_FAITH_fear.png"
 #         attribute angry:

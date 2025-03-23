@@ -5,6 +5,7 @@ label scene4a:
     scene black with fade
     $ renpy.pause (1.0, hard=True)
 
+    play music bgm_metal loop fadein 0.3
     scene bg_CoffeeShop with fade
 
     show sprite_SID_neutral with moveinright:
@@ -19,7 +20,7 @@ label scene4a:
 
     show sprite_JOY_neutral:
         flip_face_left_to_right
-    
+
     hide sprite_SID_neutral
     show sprite_SID_angry:
         align_right_human
@@ -151,6 +152,8 @@ label scene4a:
     JOY "The FUCK did he just ask?"
 
 menu:
+    JOY "The FUCK did he just ask? {fast}"  # FEATURE: view prior dialogue
+
     "Slap the shit out of him.":
         jump Scene4a_a
     "De-escalate.":
@@ -256,7 +259,7 @@ label Scene4a_c:
     hide sprite_SID_sad
     show sprite_SID_angry:
         align_right_human
-    
+
     SID "Wait no... You're lying!"
 
     hide sprite_JOY_angry
@@ -327,4 +330,4 @@ label Scene4a_common:
 
     SID "Card, please."
 
-    return
+    call animate_bg_fadetoblack(delay=0.2)
