@@ -1,6 +1,6 @@
 label scene_5a:
 
-    #insert bg_JOY_bedroom
+    show bg_JoyHouse_BedRoom
 
     show sprite_JOY_angry with moveinleft:
         align_left_human
@@ -19,7 +19,7 @@ label scene_5a:
     JOY "Why are there people like him in the world?"
 
     #woe
-    menu: 
+    menu:
         JOY "Why are there people like him in the world?"
 
         "You know why.":
@@ -38,9 +38,9 @@ label scene_5a:
             jump scene5a_common
 
     label scene5a_common:
-        
+
         hide sprite_JOY_angry
-        show sprite_JOY_fear with moveleft
+        show sprite_JOY_fear with moveinleft
 
         JOY "UGH! I fucked up--"
 
@@ -59,15 +59,15 @@ label scene_5a:
         menu:
             JOY "Oh my god... did I do the right things?"
 
-        "No.":
-            $ choice = choices['scene5a'] = "No."
-            JOY "You're just trying to trick me."
-            jump scene5a_almostlast
-        
-        "Yes.":
-            $ choice = choices['scene5a'] = "Yes."
-            JOY "Are you sure?"
-            jump scene5a_almostlast
+            "No.":
+                $ choice = choices['scene5a'] = "No."
+                JOY "You're just trying to trick me."
+                jump scene5a_almostlast
+
+            "Yes.":
+                $ choice = choices['scene5a'] = "Yes."
+                JOY "Are you sure?"
+                jump scene5a_almostlast
 
     label scene5a_almostlast:
 
@@ -101,7 +101,7 @@ label scene_5a:
         "And you stayed true to yourself!":
             $ choice = choice['scene5a'] = 'true'
             jump scene5a_last
-        
+
         "You acted with integrity!":
             $ choice = choice['scene5a'] = 'integrity'
             hide sprite_JOY_angry
@@ -116,7 +116,7 @@ label scene5a_last:
         show sprite_JOY_neutral
         JOY "Hell yeah."
 
-        animate_bg_fadetoblack(delay=0.5)
+        call animate_bg_fadetoblack(delay=0.5)
 
     elif choice == 'integrity':
         hide sprite_JOY_angry
@@ -127,4 +127,4 @@ label scene5a_last:
             JOY "Yeah. We're okay, right?"
 
             "Yes!":
-                animate_bg_fadetoblack(delay=0.5)
+                call animate_bg_fadetoblack(delay=0.5)

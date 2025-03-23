@@ -17,11 +17,11 @@ label Act1_Day3_Scene3:
 
     #unsure of file names but I tried
 
-    scene background_examroom
+    scene bg_PetCheap_ExamRoom
 
     show sprite_JOY_front with moveinleft
 
-    show CharacterArt_Idiot with moveinright
+    show sprite_IDIOT_front with moveinright
 
     j "Aaaaaand there we go! All better!"
 
@@ -31,11 +31,11 @@ label Act1_Day3_Scene3:
 
     i "Humph"
 
-    hide CharacterArt_Idiot with move
+    hide sprite_IDIOT_front with move
 
     pause 1.5
 
-    show sprite_Pompo_front with moveinright 
+    show sprite_Pompo_front with moveinright
 
     p "So I guess you've met IDOT eh? Yeah apparently that dog loves eating random stuff."
 

@@ -19,7 +19,7 @@ label scene4a:
 
     show sprite_JOY_neutral:
         flip_face_left_to_right
-    
+
     hide sprite_SID_neutral
     show sprite_SID_angry:
         align_right_human
@@ -256,7 +256,7 @@ label Scene4a_c:
     hide sprite_SID_sad
     show sprite_SID_angry:
         align_right_human
-    
+
     SID "Wait no... You're lying!"
 
     hide sprite_JOY_angry

@@ -1,6 +1,6 @@
 label scene5b:
 
-    show bg_JOY_bedroom
+    show bg_JoyHouse_BedRoom
 
     show sprite_JOY_happy with moveinleft
 
@@ -42,7 +42,7 @@ label scene5b_next:
 
     JOY "I said too much and told FAITH I've got these doubts..."
 
-    show sprite_JOY_fear with moveleft
+    show sprite_JOY_fear with moveinleft
 
     show sprite_JOY_sad at align_left_human
 
@@ -92,12 +92,12 @@ label scene5b_next2:
 label scene5b_next3:
 
     show sprite_JOY_neutral:
-        linear 0.6 xaligh 0.5
+        linear 0.6 align 0.5
 
     JOY "Even if the world is ending around us!"
 
     menu:
-        JOY "Even if the world is ending around us!""
+        JOY "Even if the world is ending around us!"
 
         "Because this is how we can contribute!":
             $ choice = 'contribute'
@@ -111,7 +111,7 @@ label scene5b_last:
 
     menu:
         JOY "Yeah. This is how I will fix the world."
-        
+
         "Yes!":
             $ choice = 'yes'
-            animate_bg_fadetoblack(delay=0.5)
+            call animate_bg_fadetoblack(delay=0.5)

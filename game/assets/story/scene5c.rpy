@@ -1,6 +1,6 @@
-label scene5b:
+label scene5c:
 
-    show bg_JOY_bedroom
+    show bg_JoyHouse_BedRoom
 
     show sprite_JOY_neutral with moveinleft
 
@@ -42,7 +42,7 @@ label scene5c_next:
 
     JOY "I yelled at a client and I'm supposed to be a professional..."
 
-    show sprite_JOY_fear with moveleft
+    show sprite_JOY_fear with moveinleft
 
     show sprite_JOY_sad at align_left_human
 
@@ -92,7 +92,7 @@ label scene5c_next2:
 label scene5c_next3:
 
     show sprite_JOY_neutral:
-        linear 0.6 xaligh 0.5
+        linear 0.6 xalign 0.5
 
     JOY "Even if every pet owner is a psycho owner!"
 
@@ -111,8 +111,7 @@ label scene5c_last:
 
     menu:
         JOY "Yeah. Let's save the animals!"
-        
+
         "Yes!":
             $ choice = 'yes'
-            animate_bg_fadetoblack(delay=0.5)
-            
+            call animate_bg_fadetoblack(delay=0.5)
