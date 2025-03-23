@@ -1,4 +1,6 @@
 # Features
+maybe have a whole library of sfx so that when non-joy characters talk, each dialogue or so you get a new sfx?
+
 ideas:
     define a few emotions!
     if you can get a few standard emotions, that would be super helpful
