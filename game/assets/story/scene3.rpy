@@ -1,7 +1,7 @@
 # scene 3: JOY enters break room, SID suggests JOY should go out on a date, choses between asking SID, FAITH, or refusing
 
 label scene3:
-
+    play music bgm_office loop fadein 0.3  # audio_office
     show bg_PetCheap_FrontDesk
 
     # *stage:* JOY enters from the right and ends up on the left looking left.
@@ -16,6 +16,7 @@ label scene3:
     JOY "Oh, here we go. It's the tech..."
 
     # *stage:* JOY turns to the right. SID enters from the right.
+    play sound sfx_curtain volume 0.25  # sound effect rather than music
     show sprite_JOY_neutral:
         flip_face_left_to_right
     show sprite_SID_neutral with moveinright:
@@ -32,6 +33,7 @@ label scene3:
     show sprite_JOY_neutral:
         flip_face_right_to_left
 
+    play sound sfx_incommingcall volume 0.25  # sound effect rather than music
     SID "There's this great coffee place next door! Let's check it out!"
 
     JOY "..."
@@ -55,6 +57,7 @@ label scene3:
         align_left_human
         flip_face_right_to_left
 
+    play sound sfx_copier volume 0.25  # sound effect rather than music
     JOY "We're coworkers! Why would you ask me out?"
 
     SID "PetCheap doesnt have a fraternization policy!"

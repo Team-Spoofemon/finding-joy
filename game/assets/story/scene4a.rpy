@@ -5,6 +5,7 @@ label scene4a:
     scene black with fade
     $ renpy.pause (1.0, hard=True)
 
+    play music bgm_metal loop fadein 0.3
     scene bg_CoffeeShop with fade
 
     show sprite_SID_neutral with moveinright:

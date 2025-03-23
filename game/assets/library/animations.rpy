@@ -44,10 +44,12 @@ transform resaturate:
 
 
 label animate_bg_fadetoblack(delay=0.5):
+    stop music fadeout delay  # from anywhere
     scene black with fade
     $ renpy.pause (delay, hard=True)
 
 
 label animate_bg_fadeinblack(delay=0.2):
+    stop music fadeout delay  # from anywhere
     scene black with fade
     # $ renpy.pause (delay, hard=True)

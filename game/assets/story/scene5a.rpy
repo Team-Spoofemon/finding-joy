@@ -1,5 +1,6 @@
 label scene5a:
 
+    play music bgm_fireplace loop fadein 0.3
     show bg_JoyHouse_BedRoom
 
     show sprite_JOY_angry with moveinleft:

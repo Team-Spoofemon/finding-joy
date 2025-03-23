@@ -87,7 +87,7 @@ function Convert-Ogg {
     $generated = @()
     $cwd = Get-Location
     $items = get-childitem -Path $ProjectDirpath -Recurse | Where-Object {
-        $_.Name -match '^.*\.flac|^.*\.aiff'
+        $_.Name -match '^.*\.flac|^.*\.aiff|^.*\.mp3'
     }
     try {
         $items | ForEach-Object {
