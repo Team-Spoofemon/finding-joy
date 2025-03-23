@@ -35,7 +35,7 @@ label Act1_Day3_Scene3:
 
     pause 1.5
 
-    show sprite_Pompo_front with moveinright
+    show sprite_POMPO_front with moveinright
 
     p "So I guess you've met IDOT eh? Yeah apparently that dog loves eating random stuff."
 

@@ -8,7 +8,8 @@ label scene5b:
 
     JOY "Kinda crazy I'm even allowed a good time these days."
 
-    show sprite_JOY_happy with moveright
+    show sprite_JOY_happy:
+        moveright
 
     show sprite_JOY_sad at align_right_human
 
@@ -68,7 +69,8 @@ label scene5b_next2:
 
     JOY "But FAITH was right, regardless of how coffee went."
 
-    show sprite_JOY_sad with moveright
+    show sprite_JOY_sad:
+        moveright
 
     show sprite_JOY_neutral at align_right_human
 

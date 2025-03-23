@@ -327,4 +327,4 @@ label Scene4a_common:
 
     SID "Card, please."
 
-    return
+    call animate_bg_fadetoblack(delay=0.2)

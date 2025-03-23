@@ -1,4 +1,4 @@
-label scene_5a:
+label scene5a:
 
     show bg_JoyHouse_BedRoom
 
@@ -10,7 +10,8 @@ label scene_5a:
 
     JOY "I can't fucking stand this."
 
-    show sprite_JOY_angry with moveright
+    show sprite_JOY_angry:
+        moveright
     hide sprite_JOY_angry
     show sprite_JOY_sad:
         align_right_human
@@ -77,7 +78,8 @@ label scene_5a:
 
     JOY "I know I did the right thing."
 
-    show sprite_JOY_fear with moveright
+    show sprite_JOY_fear:
+        moveright
     hide sprite_JOY_fear
     show sprite_JOY_neutral
 
@@ -99,11 +101,11 @@ label scene_5a:
         JOY "Now everyone will know!"
 
         "And you stayed true to yourself!":
-            $ choice = choice['scene5a'] = 'true'
+            $ choice = choices['scene5a'] = 'true'
             jump scene5a_last
 
         "You acted with integrity!":
-            $ choice = choice['scene5a'] = 'integrity'
+            $ choice = choices['scene5a'] = 'integrity'
             hide sprite_JOY_angry
             show sprite_JOY_happy
             JOY "Yeah. We're ok, right?"

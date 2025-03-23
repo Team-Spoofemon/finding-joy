@@ -131,9 +131,9 @@ layeredimage faith:
     # at recolor_transform  # not sure what it is, doesnt work either
 
     always:
-        "assets/characters/FAITH/sprite_FAITH_front.png"
+        "assets/characters/FAITH/sprite_FAITH_happy.png"
     attribute worried:
-        "assets/characters/FAITH/sprite_FAITH_worried.png"
+        "assets/characters/FAITH/sprite_FAITH_fear.png"
 
     # group expressions:
     #     pos (100, 600)
@@ -148,7 +148,7 @@ layeredimage biscuits:
         "assets/characters/FAITH/BISCUITS/sprite_BISCUITS_front.png"
     group emotions:
         attribute worried:
-            "assets/characters/FAITH/BISCUITS/sprite_BISCUITS_worried.png"
+            "assets/characters/FAITH/BISCUITS/sprite_BISCUITS_fear.png"
         attribute happy:
             "assets/characters/FAITH/BISCUITS/sprite_BISCUITS_happy.png"
 

@@ -6,13 +6,13 @@ https://www.renpy.org/doc/html/cli.html
 param (
     [Parameter()][String]$RenpyProjectRoot = "$PSScriptRoot\..\..\",
     [Parameter()][String]$Project = "finding-joy",
-    [Parameter(Mandatory=$true)][String][ValidateSet("clean", "lint", "ogg", "run", "build")]$Action,
+    [Parameter(Mandatory=$true)][String][ValidateSet("clean", "lint", "ogg", "run", "build", "todo")]$Action,
     [Parameter()][switch]$Force
 )
 
 $ProjectDirpath = [IO.Path]::GetFullPath("$RenpyProjectRoot/$Project")
 
-function Run-Clean {
+function Start-Clean {
     Write-Host -ForegroundColor Cyan "Cleaning..."
 
     # delete persistent files
@@ -28,13 +28,14 @@ function Run-Clean {
     }
 
     Get-ChildItem -Path $ProjectDirpath -Recurse -Filter "*.rpyc" | ForEach-Object {
+        Write-Host $_.FullName
         Remove-Item $_.FullName
     }
     Write-Host -ForegroundColor Yellow "Result: $LASTEXITCODE"
 }
 
 
-function Run-Lint {
+function Start-Lint {
     Write-Host -ForegroundColor Cyan "Linting..."
     # usually pythonw.exe, but here we can just use python.exe
     & "C:\tools\renpy-8.3.4-sdk\lib\py3-windows-x86_64\python.exe"  `
@@ -49,7 +50,15 @@ function Run-Lint {
     code "$ProjectDirpath\lint.txt"
 }
 
-function Run-Run {
+
+function Start-Todo {
+    & python "$PSScriptRoot/assets-todo.py"
+    Write-Host -ForegroundColor Yellow "Result: $LASTEXITCODE"
+}
+
+
+
+function Start-Run {
     Write-Host -ForegroundColor Cyan "Running..."
     # usually pythonw.exe
     taskkill /f /t /im pythonw.exe
@@ -61,7 +70,7 @@ function Run-Run {
         --errors-in-editor
 }
 
-function Run-Build {
+function Start-Build {
     Write-Host -ForegroundColor Cyan "Building..."
     & "C:\tools\renpy-8.3.4-sdk\lib\py3-windows-x86_64\pythonw.exe"  `
         "C:\tools\renpy-8.3.4-sdk\renpy.py"  `
@@ -115,19 +124,23 @@ function Convert-Ogg {
 
 
 if ($Action.ToLower() -eq "clean") {
-    Run-Clean
+    Start-Clean
 } elseif ($Action.ToLower() -eq "lint") {
-    Run-Clean
-    Run-Lint
+    Start-Clean
+    Start-Lint
+} elseif ($Action.ToLower() -eq "todo") {
+    Start-Clean
+    Start-Lint
+    Start-Todo
 } elseif ($Action.ToLower() -eq "ogg") {
     Convert-Ogg
 } elseif ($Action.ToLower() -eq "run") {
-    Run-Clean
-    Run-Run
+    Start-Clean
+    Start-Run
 } elseif ($Action.ToLower() -eq "build") {
     # TODO: doesnt actually build anything, just "compile" and no outputs. maybe gui is the only way.
-    Run-Clean
-    Run-Build
+    Start-Clean
+    Start-Build
 }
 
 

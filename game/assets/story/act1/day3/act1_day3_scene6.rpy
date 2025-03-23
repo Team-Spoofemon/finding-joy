@@ -2,7 +2,7 @@
 
     scene black with fade
 
-    scene bg_JoyHouse_entry
+    scene bg_JoyHouse_BedRoom
 
     show sprite_JOY_mad
 

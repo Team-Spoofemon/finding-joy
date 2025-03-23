@@ -115,12 +115,12 @@
                     4. surprised
                 - clothing
                     - formal (low priority)
-            - FAITH based on [sprite_FAITH_front](../../../game\assets\characters\FAITH\sprite_FAITH_front.png) which will be renamed to `sprite_FAITH_happy`
+            - FAITH based on [sprite_FAITH_front](../../../game/assets/characters/FAITH/sprite_FAITH_front.png) which will be renamed to `sprite_FAITH_happy`
                 - thinking
                 - neutral
             - BISCUITS
-                - distress based on [sprite_BISCUITS_worried](../../../game\assets\characters\FAITH\BISCUITS\sprite_BISCUITS_worried.png), make the welt BIG
-            - KELLY based on [sprite_KELLY_front](../../../game\assets\characters\KELLY\sprite_KELLY_front.png)
+                - distress based on [sprite_BISCUITS_fear](../../../game/assets/characters/FAITH/BISCUITS/sprite_BISCUITS_fear.png), make the welt BIG
+            - KELLY based on [sprite_KELLY_front](../../../game/assets/characters/KELLY/sprite_KELLY_front.png)
                 - happy - remove the `kelly` name tag
                 - angry - make her expression LIVID even exaggerated
     - lee

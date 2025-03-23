@@ -8,7 +8,8 @@ label scene5c:
 
     JOY "It's one crazy client after another out here!"
 
-    show sprite_JOY_neutral with moveright
+    show sprite_JOY_neutral:
+        moveright
 
     show sprite_JOY_sad at align_right_human
 
@@ -68,7 +69,8 @@ label scene5c_next2:
 
     JOY "Well... at least we got that toy out of GRAVY's throat alright."
 
-    show sprite_JOY_sad with moveright
+    show sprite_JOY_sad:
+        moveright
 
     show sprite_JOY_neutral at align_right_human
 
