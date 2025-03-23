@@ -47,7 +47,7 @@
     JOY "UGH! I fucked up--now when I come back tomorrow I'm going to have to deal with him and everyone's going to know and!!"
 
 
-    JOY "Oh my god... did I do the right thing"
+    JOY "Oh my god... did I do the right thing?"
 
     $ choice = None #labels choice as none
 

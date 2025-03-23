@@ -19,7 +19,7 @@ label scene5c:
     JOY "The clients are crazy right? Or am I the crazy one?"
 
     menu:
-        JOY "The clients are crazy right? Or am I the crazy one?"
+        JOY "The clients are crazy right? Or am I the crazy one? {fast}"  # FEATURE: view prior dialogue
 
         "You're the crazy one.":
             $ choice = 'crazy'
@@ -51,8 +51,7 @@ label scene5c_next:
     JOY "Did I mess up?"
 
     menu:
-
-        JOY "Did I mess up?"
+        JOY "Did I mess up? {fast}"  # FEATURE: view prior dialogue
 
         "No.":
             $ choice = 'no'
@@ -86,7 +85,7 @@ label scene5c_next2:
     JOY "I will keep it up even if work itself sucks!"
 
     menu:
-        JOY "I will keep it up even if work itself sucks!"
+        JOY "I will keep it up even if work itself sucks! {fast}"  # FEATURE: view prior dialogue
 
         "Damn straight.":
             $ choice = 'straight'
@@ -100,7 +99,7 @@ label scene5c_next3:
     JOY "Even if every pet owner is a psycho owner!"
 
     menu:
-        JOY "Even if every pet owner is a psycho owner!"
+        JOY "Even if every pet owner is a psycho owner! {fast}"  # FEATURE: view prior dialogue
 
         "Because this is how we can contribute!":
             $ choice = 'contribute'
@@ -113,7 +112,7 @@ label scene5c_last:
     JOY "Yeah. Let's save the animals!"
 
     menu:
-        JOY "Yeah. Let's save the animals!"
+        JOY "Yeah. Let's save the animals! {fast}"  # FEATURE: view prior dialogue
 
         "Yes!":
             $ choice = 'yes'

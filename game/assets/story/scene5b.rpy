@@ -19,7 +19,7 @@ label scene5b:
     JOY "Do I deserve this? Do I deserve even a little happy?"
 
     menu:
-        JOY "Do I deserve this? Do I deserve even a little happy?"
+        JOY "Do I deserve this? Do I deserve even a little happy? {fast}"  # FEATURE: view prior dialogue
 
         "It's too good to be true.":
             $ choice = 'true'
@@ -51,8 +51,7 @@ label scene5b_next:
     JOY "Did I mess up?"
 
     menu:
-
-        JOY "Did I mess up?"
+        JOY "Did I mess up? {fast}"  # FEATURE: view prior dialogue
 
         "No.":
             $ choice = 'no'
@@ -86,7 +85,7 @@ label scene5b_next2:
     JOY "I will keep it up even if work itself sucks!"
 
     menu:
-        JOY "I will keep it up even if work itself sucks!"
+        JOY "I will keep it up even if work itself sucks! {fast}"  # FEATURE: view prior dialogue
 
         "Damn straight.":
             $ choice = 'straight'
@@ -100,7 +99,7 @@ label scene5b_next3:
     JOY "Even if the world is ending around us!"
 
     menu:
-        JOY "Even if the world is ending around us!"
+        JOY "Even if the world is ending around us! {fast}"  # FEATURE: view prior dialogue
 
         "Because this is how we can contribute!":
             $ choice = 'contribute'
@@ -113,7 +112,7 @@ label scene5b_last:
     JOY "Yeah. This is how I will fix the world."
 
     menu:
-        JOY "Yeah. This is how I will fix the world."
+        JOY "Yeah. This is how I will fix the world. {fast}"  # FEATURE: view prior dialogue
 
         "Yes!":
             $ choice = 'yes'

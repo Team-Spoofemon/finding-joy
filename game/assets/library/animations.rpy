@@ -43,13 +43,17 @@ transform resaturate:
     linear 0.6 matrixcolor TintMatrix("#ffffff") * SaturationMatrix(1.0)
 
 
-label animate_bg_fadetoblack(delay=0.5):
-    stop music fadeout delay  # from anywhere
+label animate_bg_fadetoblack(delay=0.5):  # from anywhere
+    stop music fadeout delay
+    stop audio fadeout delay
+    stop sound fadeout delay
     scene black with fade
     $ renpy.pause (delay, hard=True)
 
 
 label animate_bg_fadeinblack(delay=0.2):
-    stop music fadeout delay  # from anywhere
+    stop music fadeout delay
+    stop audio fadeout delay
+    stop sound fadeout delay
     scene black with fade
     # $ renpy.pause (delay, hard=True)

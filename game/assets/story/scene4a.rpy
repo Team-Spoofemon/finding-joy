@@ -152,6 +152,8 @@ label scene4a:
     JOY "The FUCK did he just ask?"
 
 menu:
+    JOY "The FUCK did he just ask? {fast}"  # FEATURE: view prior dialogue
+
     "Slap the shit out of him.":
         jump Scene4a_a
     "De-escalate.":

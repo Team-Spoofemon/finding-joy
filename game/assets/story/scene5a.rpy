@@ -22,7 +22,7 @@ label scene5a:
 
     #woe
     menu:
-        JOY "Why are there people like him in the world?"
+        JOY "Why are there people like him in the world? {fast}"  # FEATURE: view prior dialogue
 
         "You know why.":
             $ choice = choices['scene5a'] = 'why'
@@ -59,7 +59,7 @@ label scene5a:
         JOY "Oh my god... did I do the right thing?"
 
         menu:
-            JOY "Oh my god... did I do the right things?"
+            JOY "Oh my god... did I do the right thing? {fast}"  # FEATURE: view prior dialogue
 
             "No.":
                 $ choice = choices['scene5a'] = "No."
@@ -99,7 +99,7 @@ label scene5a:
     JOY "Now everyone will know!"
 
     menu:
-        JOY "Now everyone will know!"
+        JOY "Now everyone will know! {fast}"  # FEATURE: view prior dialogue
 
         "And you stayed true to yourself!":
             $ choice = choices['scene5a'] = 'true'
@@ -109,7 +109,6 @@ label scene5a:
             $ choice = choices['scene5a'] = 'integrity'
             hide sprite_JOY_angry
             show sprite_JOY_happy
-            JOY "Yeah. We're ok, right?"
             jump scene5a_last
 
 label scene5a_last:
@@ -127,7 +126,7 @@ label scene5a_last:
         JOY "Yeah. We're okay, right?"
 
         menu:
-            JOY "Yeah. We're okay, right?"
+            JOY "Yeah. We're okay, right? {fast}"  # FEATURE: view prior dialogue
 
             "Yes!":
                 call animate_bg_fadetoblack(delay=0.5)
