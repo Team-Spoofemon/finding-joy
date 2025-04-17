@@ -19,6 +19,9 @@
 - crop butter
 
 
+- sprite_FAITH_sad
+
+
 
 # Features
 maybe have a whole library of sfx so that when non-joy characters talk, each dialogue or so you get a new sfx?

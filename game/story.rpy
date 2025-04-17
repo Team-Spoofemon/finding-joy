@@ -1,6 +1,8 @@
 label start:
     stop music fadeout 1.0  # from the menu
 
+    # call scene1
+    call scene2
     call scene3
 
     if choices['scene3'] == 'sid':
