@@ -1,3 +1,25 @@
+# New Files To Use:
+- aquarium.mp3
+- bathroom sink.mp3
+- bgm coffee shop.mp3
+- bgm joy bedroom.mp3
+- bg_PetCheap_BreakRoom.png
+- clinking glasses.mp3
+- coffee shop ambience.mp3
+- footsteps.mp3
+- scene2.rpy
+- scene4c.rpy
+- sprite_BUTTER_distressed.png
+- sprite_BUTTER_happy.png
+- stirring coffee.mp3
+- toilet flush.mp3
+
+
+- crop biscuits
+- crop butter
+
+
+
 # Features
 maybe have a whole library of sfx so that when non-joy characters talk, each dialogue or so you get a new sfx?
 

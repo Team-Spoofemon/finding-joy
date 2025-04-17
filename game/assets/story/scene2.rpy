@@ -1,4 +1,4 @@
-label scene2: 
+label scene2:
 
     show bg_PetCheap_FrontDesk
 
@@ -10,7 +10,7 @@ label scene2:
     show bg_PetCheap_FrontDesk
 
     menu:
-        WOE 
+        WOE
 
         "The next is going to be a phycopath!":
             $ choice = choices['scene2'] = 'sid'
@@ -19,20 +19,20 @@ label scene2:
 
         "Please no more...":
             $ choice = choices['scene2'] = 'sid'
-            Joy "We can survive, I know it hide sprite_JOY_happy"
+            JOY "We can survive, I know it hide sprite_JOY_happy"
             jump scene2_common
 
         "Why not join the crazy, like the joker?":
             $ choice = choices ['scene2'] = 'sid'
-            Joy "Just one bad day away, huh?" 
+            JOY "Just one bad day away, huh?"
             hide sprite_JOY_angry
             jump scene2_common
 
 label scene2_common:
 
-        show sprite_JOY_neutral with moveleft 
+        show sprite_JOY_neutral with moveleft
 
-        ??? Oh my god, are you the vet?
+        QUESTION Oh my god, are you the vet?
 
         JOY "Yes I am, how can I help you?"
 
@@ -41,7 +41,7 @@ label scene2_common:
         FAITH "I'm Faith and this is BISCUITS-there's something inside his chest!"
 
         show sprite_BISCUITS_sad with moveright
-        show sprite_JOY_neutral at center with moveright 
+        show sprite_JOY_neutral at center with moveright
 
         JOY "Poor thing..."
 
@@ -52,15 +52,15 @@ label scene2_common:
         JOY "Don't be, that's what I'm here for."
         stage: Joy and Biscuits shake
 
-        Joy "Cats go outside a lot..."
+        JOY "Cats go outside a lot..."
 
         Faith "Oh no! I promise I'll never let BISCUITS go again!"
 
-        stage: JOY and BISCUITS shake 
+        stage: JOY and BISCUITS shake
 
         JOY "I'm sure you just want your BISCUITS..."
 
-        #stage: Joy and BISCUITS... 
+        #stage: Joy and BISCUITS...
 
         JOY "I'm sure you just want your BISCUITS..."
 
@@ -98,7 +98,7 @@ label scene2_common:
 
         JOY "Wow. Inspiring, huh?"
 
-        show 
+        show
 
         menu:
 
@@ -110,20 +110,3 @@ label scene2_common:
         "Slide into those DM's or else":
         $ choice = choices['scene2'] = 'sid'
         JOY "Be gone, intrusive thoughts! Horny jail for you! sprite_JOY_angry  UNLOCK ROMANCE OPTION 4B
-
-
-
-
-
-
-
-
-
-        
-        
-
-
-
-
-
-    

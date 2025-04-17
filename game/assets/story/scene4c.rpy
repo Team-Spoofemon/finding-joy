@@ -1,4 +1,4 @@
-label scene4c;
+label scene4c:
 
    #stage: JOY and enter from the right
 
@@ -8,8 +8,8 @@ label scene4c;
 
    JOY "I'm not really into doing that, right? Or coworkers, right?"
 
-   menu: 
-      WOE 
+   menu:
+      WOE
 
       "Or clients, for that matter":
    $ choice = choices['scene4'] = 'sid'
@@ -30,13 +30,13 @@ label scene4c_common:
 
    show sprite_JOY_neutral with moveleft
 
-   ??? "Hey uh... is this where i'm supposed to go for pets?"
+   QUESTION "Hey uh... is this where i'm supposed to go for pets?"
 
-   Joy "Here we go..."
+   JOY "Here we go..."
 
    show sprite_DOPEY_neutral with moveinright
 
-   ??? "Uh, hello? I think my dog is like, and not okay and stuff?"
+   QUESTION "Uh, hello? I think my dog is like, and not okay and stuff?"
 
    JOY "Yes, come on in. What's your name sir?"
 
@@ -82,14 +82,14 @@ label scene4c_common:
 
    JOY "Hah hah! Okay, okay! I think I get the picture."
 
-   show sprite_GRAVY_neutral with moveinright 
+   show sprite_GRAVY_neutral with moveinright
    show sprite_JOY_happy with moveinleft
 
    DOPEY "Yeah but GRAVY never seems bothered by it, so I don't know."
 
    JOY "Let's just... see if we can unstuck what's in GRAVY's throat, alright?"
 
-   #stage: Joy and GRAVY shake 
+   #stage: Joy and GRAVY shake
 
    DOPEY "Um, okay."
 
@@ -149,15 +149,3 @@ label scene4c_common:
    JOY "Who needs a date whenyou get to bear witness to true love like that?"
 
    #show sprite_JOY_neutral with exit_right
-
-
-
-
-
-
-
-
-
-
-
-   

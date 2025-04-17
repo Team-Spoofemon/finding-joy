@@ -1,8 +1,6 @@
-# init:
-image bg_PetCheap_FrontDesk = "assets/background/bg_PetCheap_FrontDesk.png"
-image bg_PetCheap_ExamRoom = "assets/background/bg_PetCheap_ExamRoom.png"
-
-image bg_Restaurant = "assets/background/bg_Restaurant.jpg"
 image bg_CoffeeShop = "assets/background/bg_CoffeeShop.jpg"
-
 image bg_JoyHouse_BedRoom = "assets/background/bg_JoyHouse_BedRoom.png"
+image bg_PetCheap_BreakRoom = "assets/background/bg_PetCheap_BreakRoom.png"
+image bg_PetCheap_ExamRoom = "assets/background/bg_PetCheap_ExamRoom.png"
+image bg_PetCheap_FrontDesk = "assets/background/bg_PetCheap_FrontDesk.png"
+image bg_Restaurant = "assets/background/bg_Restaurant.jpg"
