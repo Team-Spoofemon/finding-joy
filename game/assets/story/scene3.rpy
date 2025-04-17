@@ -1,7 +1,7 @@
 # scene 3: JOY enters break room, SID suggests JOY should go out on a date, choses between asking SID, FAITH, or refusing
 
 label scene3:
-    play music bgm_office loop fadein 0.3  # audio_office
+    play music amb_office loop fadein 0.3  # audio_office
     show bg_PetCheap_FrontDesk
 
     # *stage:* JOY enters from the right and ends up on the left looking left.
@@ -33,7 +33,7 @@ label scene3:
     show sprite_JOY_neutral:
         flip_face_right_to_left
 
-    play sound sfx_incommingcall volume 0.25  # sound effect rather than music
+    play sound sfx_incomingcall volume 0.25  # sound effect rather than music
     SID "There's this great coffee place next door! Let's check it out!"
 
     JOY "..."
@@ -96,7 +96,7 @@ label scene3:
             JOY "Horny jail for me. Seems cruel, but necessary."
             jump scene3_common
 
-        "Wait... then Faith is an option!":
+        "Wait... then Faith is an option!" if choices['faith-unlock']:
             # IF UNLOCK ROMANCE OPTION 4B
             #     c) Wait, wait, wait... CLIENTS are on the table!
             $ choice = choices['scene3'] = 'faith'

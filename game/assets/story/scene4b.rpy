@@ -20,7 +20,7 @@ label scene4b:
 
     show sprite_JOY_neutral:
         flip_face_left_to_right
-   
+
     #$ renpy.pause (0.5, hard=True)
 
     hide sprite_FAITH_neutral
@@ -173,7 +173,7 @@ label scene4b_a:
 
     JOY "You do?"
 
-    FAITH "Yup. Work isn't bad... sometimes people are." 
+    FAITH "Yup. Work isn't bad... sometimes people are."
 
     FAITH "Thats why I'm thinking about vet school."
 
@@ -223,7 +223,7 @@ label scene4b_b:
     hide sprite_JOY_sad
     show sprite_JOY_happy:
         align_left_human
-    
+
     $ emotion += 1
 
     JOY "You sound so confident. Why do you think so?"

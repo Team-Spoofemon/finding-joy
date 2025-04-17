@@ -1,0 +1,5 @@
+define amb_aquarium = "assets/audio/amb/amb_aquarium.ogg"
+define amb_coffeeshop = "assets/audio/amb/amb_coffeeshop.ogg"
+define amb_fireplace = "assets/audio/amb/amb_fireplace.ogg"
+define amb_metal = "assets/audio/amb/amb_metal.ogg"
+define amb_office = "assets/audio/amb/amb_office.ogg"

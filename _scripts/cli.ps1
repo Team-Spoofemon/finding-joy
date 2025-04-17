@@ -48,6 +48,7 @@ function Start-Lint {
         # --errors-in-editor
     Write-Host -ForegroundColor Yellow "Result: $LASTEXITCODE"
     code "$ProjectDirpath\lint.txt"
+    code "$ProjectDirpath\errors.txt"
 }
 
 

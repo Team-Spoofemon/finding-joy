@@ -1,6 +1,6 @@
 label scene5c:
 
-    play music bgm_fireplace loop fadein 0.3
+    play music amb_fireplace loop fadein 0.3
     show bg_JoyHouse_BedRoom
 
     show sprite_JOY_neutral with moveinleft
