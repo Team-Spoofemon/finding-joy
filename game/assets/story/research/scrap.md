@@ -1,0 +1,1 @@
+SCENE 88 - boss says its that lady with the botfly cat, she's at the clinic right now begging me to get a hold of you (as i was locking up), she says there's an eagle on her porch, and POMPO says FAITH wants you. you in angry say, you go deal with it. POMPO says, no. she wants you, and i agree you're the best for the job--im driving to her house at whatever, i hope you'll come.

@@ -122,7 +122,7 @@ define config.window_hide_transition = Dissolve(.2)
 ## Controls the default text speed. The default, 0, is infinite, while any other
 ## number is the number of characters per second to type out.
 
-default preferences.text_cps = 0
+default preferences.text_cps = 50  # get a typewriter feel
 
 
 ## The default auto-forward delay. Larger numbers lead to longer waits, with 0
@@ -197,7 +197,6 @@ init python:
     build.documentation('*.html')
     build.documentation('*.txt')
 
-    config.developer = True  # enable shift + r and shift + d, shift + o for console???
 
 
 ## A Google Play license key is required to perform in-app purchases. It can be
@@ -211,3 +210,5 @@ init python:
 ## by a slash.
 
 # define build.itch_project = "renpytom/test-project"
+
+define config.developer = True  # enable shift + r, shift + d for developer menu, shift + o for console

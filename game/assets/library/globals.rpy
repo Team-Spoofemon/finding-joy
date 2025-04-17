@@ -1,6 +1,4 @@
 init:
-    define data = {
-        "act1_day1_scene_X": {
-            "choice": "???"
-        }
+    define choices = {
+        "scene3": 'work',  # options: 'sid', 'faith', 'work'
     }

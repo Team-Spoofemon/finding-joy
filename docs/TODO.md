@@ -1,4 +1,19 @@
 # Features
+maybe have a whole library of sfx so that when non-joy characters talk, each dialogue or so you get a new sfx?
+
+ideas:
+    define a few emotions!
+    if you can get a few standard emotions, that would be super helpful
+    maybe to cut down on asset resources, rather than having sitting standing, we can do a zoom in fade type situation
+
+
+animations and scene to scene transitions...
+    $ renpy.pause (delay, hard=True)
+
+
+as a1d3s1 demonstrates, we may need a layering system...
+
+
 - logo
 - non woke config, no woke is just "every choice doesnt correlate"
 - title page Splash screen - https://www.renpy.org/doc/html/splashscreen_presplash.html#adding-a-splashscreen
@@ -16,6 +31,8 @@
     - for example if joy is interacting in the bathroom, we might need joy to be able to walk around the bathroom
 - character creator
     - you can pick from different avatars for JOY, some are gender expressioned, some are gender expressionless
+- "the next day" needs to be able to scroll very slowly
+- we need test to display like a typewriter, change fonts, etc.
 
 minigame ideas:
     examining a bunch of patients for diagnoses - for example lungs, heart, tummy, lumps, etc.
