@@ -16,10 +16,24 @@ transform align_left_human:
     yalign 1.0
 
 
+transform align_center_human:
+    # xpos 0.1
+    xalign 0.45
+    yalign 1.0
+
+
 transform align_right_human:
     # xpos 0.2
     xalign 0.9
     yalign 1.0
+
+
+transform flip_left:
+    xzoom -1.0 yzoom 1.0
+
+
+transform flip_right:
+    xzoom 1.0 yzoom 1.0
 
 
 transform flip_face_right_to_left:
