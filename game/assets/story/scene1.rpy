@@ -37,16 +37,15 @@ label scene1:
                 flip_left
             JOY "You're right. Gotta pace myself."
 
+    # *stage:* JOY moves to the left.
+
+    QUESTION "Yeah, yeah, yeah, I'll be right there!"
+
     if washappy:
         show sprite_JOY_neutral:
             align_left_human
             flip_left
     hide sprite_JOY_happy
-
-    # *stage:* JOY moves to the left.
-
-    QUESTION "Yeah, yeah, yeah, I'll be right there!"
-
     JOY "Looks like we've got the first client already?"
 
     show sprite_JOY_neutral:
@@ -58,6 +57,9 @@ label scene1:
 
     QUESTION "Fix what you broke, you hear me?"
 
+    hide sprite_JOY_neutral
+    show sprite_JOY_sad:
+        align_left_human
     JOY "Uh, yes. I will. What seems to be the problem?"
 
     # *stage:* KELLY turns to the right. KELLY is angry.
@@ -65,7 +67,7 @@ label scene1:
         flip_face_right_to_left
     KELLY "My name's KELLY, damnit! Just fix it!"
 
-    hide sprite_JOY_neutral
+    hide sprite_JOY_sad
     show sprite_JOY_thinking:
         align_left_human
     JOY "Fix... what exactly?"
@@ -73,7 +75,9 @@ label scene1:
     # *stage:* KELLY turns to the left. KELLY is happy.
     hide sprite_KELLY_angry
     show sprite_KELLY_happy:
-        flip_right
+        align_right_human
+        flip_left
+    show sprite_KELLY_happy:
         align_right_human
         flip_face_left_to_right
 
@@ -113,11 +117,11 @@ label scene1:
         # WOE
         # a) This person is N-U-T-S!
         "This person is N-U-T-S!":
-        JOY "Big scary lady is NUTS, amen!"
+            JOY "Big scary lady is NUTS, amen!"
 
         # b) In and out. Lets go, quick...
         "In and out. Lets go, quick...":
-        JOY "You're right--lets not poke the big scary lady!"
+            JOY "You're right--lets not poke the big scary lady!"
 
 
     # *stage:* JOY moves to the center, BUTTER moves to the center, KELLY turns to the left, KELLY is angry, JOY is happy
