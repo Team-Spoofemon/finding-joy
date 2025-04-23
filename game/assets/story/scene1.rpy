@@ -60,7 +60,7 @@ label scene1:
     hide sprite_JOY_neutral
     show sprite_JOY_sad:
         align_left_human
-    JOY "Uh, yes. I will. What seems to be the problem?"
+    JOY "Uh, yes. I will. Who might you be?"
 
     # *stage:* KELLY turns to the right. KELLY is angry.
     show sprite_KELLY_angry:
@@ -123,40 +123,66 @@ label scene1:
         "In and out. Lets go, quick...":
             JOY "You're right--lets not poke the big scary lady!"
 
-
     # *stage:* JOY moves to the center, BUTTER moves to the center, KELLY turns to the left, KELLY is angry, JOY is happy
+    show sprite_BUTTER_fear:
+        resaturate
+    show sprite_KELLY_angry:
+        resaturate
+    show bg_PetCheap_FrontDesk:
+        resaturate
+    hide sprite_JOY_fear
+    show sprite_JOY_surprised:
+        align_left_human
+    pause 0.6
 
-    # JOY
-    # Hi there, BUTTER! What seems to be the problem?
+    JOY "Hi there, BUTTER! Aww, there's a splinter in your paw."
 
-    # JOY
-    # Ah there's a splinter in your paw.
+    show sprite_BUTTER_fear:
+        move_in_front_of_left
+        resaturate
+    pause 0.6
 
-    # KELLY
-    # There's something wrong with your head, isn't there?!
+    hide sprite_JOY_surprised
+    show sprite_JOY_happy:
+        align_left_human
+    JOY "I'll pull out that owie and make things better."
+
+    hide sprite_JOY_surprised
+    show sprite_JOY_fear:
+        align_left_human
+    KELLY "There's something wrong with your head, isn't there?!"
 
     # *stage:* JOY and BUTTER shake
+    hide sprite_JOY_happy
+    show sprite_JOY_neutral:
+        align_left_human
+        bounce
+    show sprite_BUTTER_fear:
+        bounce
+    pause 0.2
 
-    # JOY
-    # Almost...
+    JOY "Almost..."
+
+    KELLY "Well it's not my problem!"
 
     # *stage:* JOY and BUTTER shake
+    show sprite_JOY_neutral:
+        align_left_human
+        bounce
+    show sprite_BUTTER_fear:
+        bounce
+    pause 0.2
+    JOY "Just a bit more..."
 
-    # KELLY
-    # Well it's not my problem!
 
-    # JOY
-    # Just a bit more...
-
-    # *stage:* JOY and BUTTER shake
-
-    # JOY
-    # Got it! We're all set to go--?
+    JOY "Got it! We're all set to go--?"
 
     # *stage:* BUTTER is happy
 
-    # BUTTER
-    # Bark! Bark!
+    hide sprite_BUTTER_fear
+    show sprite_BUTTER_happy:
+        in_front_of_left
+    BUTTER "Bark! Bark!"
 
     # *stage:* KELLY is still turned to the right.
 
