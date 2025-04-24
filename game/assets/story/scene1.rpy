@@ -60,7 +60,7 @@ label scene1:
     hide sprite_JOY_neutral
     show sprite_JOY_sad:
         align_left_human
-    JOY "Uh, yes. I will. Who might you be?"
+    JOY "Uh, yes. I will? Who might you be?"
 
     # *stage:* KELLY turns to the right. KELLY is angry.
     show sprite_KELLY_angry:
@@ -81,7 +81,7 @@ label scene1:
         align_right_human
         flip_face_left_to_right
 
-    KELLY "I wasn't talking to you! Fix my BUTTER please?"
+    KELLY "I wasn't talking to you! Can you fix my precious BUTTER?"
 
     show sprite_BUTTER_fear with moveinright:
         align_right_human
@@ -162,7 +162,7 @@ label scene1:
         bounce
     pause 0.2
 
-    JOY "Almost..."
+    JOY "Ok just ignore and focus!"
 
     hide sprite_JOY_neutral
     show sprite_JOY_fear:
@@ -202,6 +202,7 @@ label scene1:
     hide sprite_BUTTER_fear
     show sprite_BUTTER_happy:
         in_front_of_left
+        bounce
     BUTTER "Bark! Bark!"
 
     # *stage:* KELLY is still turned to the right.
