@@ -94,7 +94,6 @@ label scene1:
     show sprite_KELLY_angry:
         align_right_human
         flip_face_right_to_left
-
     KELLY "And you! Fix what you broke!"
 
     # *stage:* JOY is fear
@@ -147,13 +146,15 @@ label scene1:
         align_left_human
     JOY "I'll pull out that owie and make things better."
 
-    hide sprite_JOY_surprised
+    hide sprite_JOY_happy
     show sprite_JOY_fear:
         align_left_human
+    show sprite_KELLY_angry:
+        bounce
     KELLY "There's something wrong with your head, isn't there?!"
 
     # *stage:* JOY and BUTTER shake
-    hide sprite_JOY_happy
+    hide sprite_JOY_fear
     show sprite_JOY_neutral:
         align_left_human
         bounce
@@ -163,22 +164,41 @@ label scene1:
 
     JOY "Almost..."
 
+    hide sprite_JOY_neutral
+    show sprite_JOY_fear:
+        align_left_human
+    show sprite_KELLY_angry:
+        bounce(multiply=2)
     KELLY "Well it's not my problem!"
 
     # *stage:* JOY and BUTTER shake
+    hide sprite_JOY_fear
     show sprite_JOY_neutral:
         align_left_human
-        bounce
+    show sprite_JOY_neutral:
+        align_left_human
+        bounce(multiply=2)
     show sprite_BUTTER_fear:
-        bounce
+        bounce(multiply=2)
     pause 0.2
     JOY "Just a bit more..."
 
+    hide sprite_JOY_neutral
+    show sprite_JOY_fear:
+        align_left_human
+    show sprite_KELLY_angry:
+        bounce(multiply=4)
+    KELLY "How long is this going to take?"
 
-    JOY "Got it! We're all set to go--?"
+    hide sprite_JOY_neutral
+    show sprite_JOY_happy:
+        align_left_human
+        bounce(multiply=4)
+    show sprite_BUTTER_fear:
+        bounce(multiply=4)
+    JOY "Got it! We're all set to go!"
 
     # *stage:* BUTTER is happy
-
     hide sprite_BUTTER_fear
     show sprite_BUTTER_happy:
         in_front_of_left
@@ -186,38 +206,79 @@ label scene1:
 
     # *stage:* KELLY is still turned to the right.
 
-    # KELLY
-    # Oh you fixed it? Finally?
+    hide sprite_KELLY_angry
+    show sprite_KELLY_happy:
+        align_right_human
+        flip_left
+    show sprite_KELLY_happy:
+        align_right_human
+        flip_face_left_to_right
+    KELLY "Oh you fixed it? Finally?"
 
-    # JOY
-    # Yes, we did.
+    JOY "Yes, we did!"
 
     # *stage:* KELLY turns to the left.
 
-    # KELLY
-    # Not you, you stupid--oh! BUTTER, you're all fixed!
+    hide sprite_JOY_happy
+    show sprite_JOY_fear:
+        align_left_human
+    hide sprite_KELLY_happy
+    show sprite_KELLY_angry:
+        align_right_human
+        flip_face_right_to_left
+    KELLY "Not you, you stupid--oh!"
 
-    # JOY
-    # Yes. That's what I've been trying to say.
+    show sprite_BUTTER_happy:
+        flip_face_right_to_left
+    hide sprite_KELLY_angry
+    show sprite_KELLY_happy:
+        align_right_human
+        flip_left
+    show sprite_KELLY_happy:
+        align_right_human
+        flip_face_left_to_right
+    KELLY "BUTTER, you're all fixed!"
 
-    # KELLY
-    # Bravo, five stars! Let's go sweetie and--
+    show sprite_BUTTER_happy:
+        flip_face_left_to_right
+    hide sprite_JOY_fear
+    show sprite_JOY_tired:
+        align_left_human
+    JOY "Yes. That's what I've been trying to say."
+
+    show sprite_BUTTER_happy:
+        flip_face_right_to_left
+    KELLY "Bravo, five stars! Let's go sweetie and--"
 
     # *stage:* KELLY turns to the right
-
-    # KELLY
-    # If I come back and its not fixed, you'll be sorry!
+    hide sprite_JOY_tired
+    show sprite_JOY_thinking:
+        align_left_human
+    hide sprite_KELLY_happy
+    show sprite_KELLY_angry:
+        align_right_human
+        flip_face_right_to_left
+    KELLY "If I come back and its not fixed, you'll be sorry!"
 
     # *stage:* KELLY and BUTTER exit right
+    show sprite_KELLY_angry:
+        exit_right
+    show sprite_BUTTER_happy:
+        exit_right
 
-    # JOY
-    # Goodness... what a start to the day.
+    pause 1.0  # let the animations complete
+
+    hide sprite_JOY_thinking
+    show sprite_JOY_tired:
+        align_left_human
+    JOY "God, what a way to start to the day..."
 
     # *stage:* JOY walks from the center to the left
+    show sprite_JOY_tired:
+        flip_face_right_to_left
+        exit_left
 
     # SCENE END.
-
-
     pause 1.0  # let the animations complete
 
     call animate_bg_fadetoblack(delay=0.2)

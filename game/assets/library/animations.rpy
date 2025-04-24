@@ -48,12 +48,12 @@ transform flip_right:
     xzoom 1.0 yzoom 1.0
 
 
-transform bounce:
+transform bounce(multiply=1):
     # https://lemmasoft.renai.us/forums/viewtopic.php?p=477118&sid=4edc0c5c93d5e757116c9a1b6009e7cf#p477118
-    easein  .05 yoffset -10
-    easeout .05 yoffset 0
-    easein  .05 yoffset -4
-    easeout .05 yoffset 0
+    easein  .05 yoffset -10 * multiply
+    easeout .05 yoffset 0 * multiply
+    easein  .05 yoffset -4 * multiply
+    easeout .05 yoffset 0 * multiply
     yoffset 0
 
 
