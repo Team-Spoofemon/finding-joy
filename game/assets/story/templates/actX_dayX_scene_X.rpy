@@ -5,7 +5,7 @@ label actX_dayX_scene_X_style1:
         does not set any global variables
     '''
 label .subscene_1:
-    play music music_JOY_theme fadeout 0.3 fadein 0.3
+    play music bgm_menu fadeout 0.3 fadein 0.3
 
     scene bg_PetCheap_FrontDesk with fade
     show sprite_JOY_front with dissolve
@@ -94,7 +94,7 @@ label debug_animation:
     # https://www.renpy.org/doc/html/transforms.html#atl
     image sprite_JOY_front_moving:
         animation
-        "assets/characters/JOY/sprite_JOY_front.png"
+        "assets/characters/JOY/sprite_JOY_neutral.png"
         xalign 0.0
         linear 5.0 xalign 1.0
         repeat
@@ -109,7 +109,7 @@ label debug_animation:
 
     show sprite_JOY_front_moving:  # unrelated image
         animation
-        "assets/characters/JOY/sprite_JOY_front.png"
+        "assets/characters/JOY/sprite_JOY_fear.png"
         xalign 0.0
         linear 5.0 xalign 1.0
         repeat
