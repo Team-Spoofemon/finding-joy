@@ -12,6 +12,7 @@ label scene5c:
     show sprite_JOY_neutral:
         moveright
 
+    hide sprite_JOY_neutral
     show sprite_JOY_sad at align_right_human
 
     pause 0.5

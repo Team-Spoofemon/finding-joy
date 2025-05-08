@@ -19,6 +19,10 @@ transform align_x_04:
     xalign 0.4
 
 
+transform align_x_03:
+    xalign 0.3
+
+
 transform align_left_human:
     # xpos 0.1
     xalign 0.1

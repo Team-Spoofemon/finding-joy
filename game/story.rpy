@@ -1,6 +1,8 @@
 label start:
     stop music fadeout 1.0  # from the menu
 
+    call scene5c
+
     call scene1
     call scene2
     call scene3

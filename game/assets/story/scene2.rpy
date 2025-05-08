@@ -1,7 +1,7 @@
 # # scene 2: JOY sees FAITH, solves their pet issue
 
 label scene2:
-    play music amb_TheTreehouseRadio_HospitalAmbience loop fadein 0.3  # audio_office
+    play music amb_RelaxedMusicLab_DentistWaitingRoom loop fadein 0.3 volume 0.2  # audio_office
     show bg_PetCheap_ExamRoom
 
     # *stage:* JOY enters from the right and ends up on the left looking left.
