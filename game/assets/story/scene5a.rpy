@@ -1,6 +1,6 @@
 label scene5a:
 
-    play music amb_fireplace loop fadein 0.3
+    play music amb_fireplace loop fadein 0.3 volume 0.2
     show bg_JoyHouse_BedRoom
 
     show sprite_JOY_angry with moveinleft:

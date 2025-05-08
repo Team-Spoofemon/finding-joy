@@ -11,6 +11,8 @@ label scene1:
 
     JOY "Alright, JOY! New day, new chance, you'll do great!"
 
+    show bg_PetCheap_FrontDesk:
+        desaturate
     JOY "Right? We've got this!"
 
     # *stage:* JOY turns to WOE
@@ -38,6 +40,8 @@ label scene1:
             JOY "You're right. Gotta pace myself."
 
     # *stage:* JOY moves to the left.
+    show bg_PetCheap_FrontDesk:
+        resaturate
 
     QUESTION "Yeah, yeah, yeah, I'll be right there!"
 

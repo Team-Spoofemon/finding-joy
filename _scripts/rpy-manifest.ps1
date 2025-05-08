@@ -1,9 +1,16 @@
-$rpy = "game\assets\background\background.rpy"
+# $rpy = "game\assets\background\background.rpy"
+# $extensions = @(
+#     ".png",
+#     ".jpg"
+# )
+# $startwith = "image"
+
+
+$rpy = "game\assets\audio\amb\amb.rpy"
 $extensions = @(
-    ".png",
-    ".jpg"
+    ".ogg"
 )
-$startwith = "image"
+$startwith = "define"
 
 
 $dirpath = [IO.Path]::GetDirectoryName($rpy)

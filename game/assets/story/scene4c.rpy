@@ -1,10 +1,14 @@
 label scene4c:
+    play music amb_TheTreehouseRadio_HospitalAmbience loop fadein 0.3  # audio_office
+    show bg_PetCheap_ExamRoom
 
     #stage: JOY and enter from the right
 
     JOY "Good thing I turned SID down, right?"
 
     #stage: JOY turns to WOE
+    show bg_PetCheap_ExamRoom:
+        desaturate
 
     JOY "I'm not really into doing that, right? Or coworkers, right?"
 
@@ -27,6 +31,8 @@ label scene4c:
             jump scene4c_common
 
 label scene4c_common:
+    show bg_PetCheap_ExamRoom:
+        resaturate
 
     show sprite_JOY_neutral with moveinleft
 
@@ -133,6 +139,8 @@ label scene4c_common:
     JOY "That was..."
 
     #stage: JOY turns to WOE
+    show bg_PetCheap_ExamRoom:
+        desaturate
 
     JOY "What was that?"
 
@@ -147,6 +155,8 @@ label scene4c_common:
             JOY "Yeah, they're cute and deserve each other. "
             hide sprite_JOY_happy
 
+    show bg_PetCheap_ExamRoom:
+        resaturate
     JOY "Who needs a date whenyou get to bear witness to true love like that?"
 
     #show sprite_JOY_neutral with exit_right

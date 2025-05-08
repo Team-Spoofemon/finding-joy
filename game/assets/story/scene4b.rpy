@@ -139,11 +139,11 @@ label scene4b:
 
     JOY "What am I even yapping about?!"
 
-menu:
-    "I don't want you disappointed like I am.":
-        jump scene4b_a
-    "It's hard sometimes. I don't feel inspiring.":
-        jump scene4b_b
+    menu:
+        "I don't want you disappointed like I am.":
+            jump scene4b_a
+        "It's hard sometimes. I don't feel inspiring.":
+            jump scene4b_b
 
 label scene4b_a:
     show sprite_FAITH_neutral:

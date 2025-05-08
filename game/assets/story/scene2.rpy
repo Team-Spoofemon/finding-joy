@@ -1,7 +1,7 @@
 # # scene 2: JOY sees FAITH, solves their pet issue
 
 label scene2:
-    play music amb_office loop fadein 0.3  # audio_office
+    play music amb_TheTreehouseRadio_HospitalAmbience loop fadein 0.3  # audio_office
     show bg_PetCheap_ExamRoom
 
     # *stage:* JOY enters from the right and ends up on the left looking left.
@@ -9,11 +9,11 @@ label scene2:
         align_center_human
         flip_face_right_to_left
 
+    show bg_PetCheap_ExamRoom:
+        desaturate
     JOY "Well that was crazy. That was CRAZY."
 
     # *stage:* JOY turns to WOE
-    show bg_PetCheap_ExamRoom:
-        desaturate
     menu:
         JOY "Well that was crazy. That was CRAZY. {fast}"  # FEATURE: view prior dialogue
 
@@ -228,13 +228,13 @@ label scene2_common:
     pause 1.0  # let the animations complete
 
     # *stage:* JOY turns to WOE
+    show bg_PetCheap_ExamRoom:
+        desaturate
     hide sprite_JOY_neutral
     show sprite_JOY_thinking:
         align_left_human
     JOY "Wow. Inspiring, huh?"
 
-    show bg_PetCheap_ExamRoom:
-        desaturate
     menu:
         JOY "Wow. Inspiring, huh? {fast}"  # FEATURE: view prior dialogue
 
