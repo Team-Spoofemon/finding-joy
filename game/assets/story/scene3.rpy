@@ -1,8 +1,8 @@
 # scene 3: JOY enters break room, SID suggests JOY should go out on a date, choses between asking SID, FAITH, or refusing
 
 label scene3:
-    play music amb_office loop fadein 0.3  # audio_office
-    show bg_PetCheap_FrontDesk
+    play music amb_coffeepot loop fadein 0.3
+    show bg_PetCheap_BreakRoom
 
     # *stage:* JOY enters from the right and ends up on the left looking left.
     show sprite_JOY_neutral with moveinright:
@@ -73,7 +73,7 @@ label scene3:
     # *stage:* JOY turns to WOE.
     show sprite_SID_neutral:
         desaturate
-    show bg_PetCheap_FrontDesk:
+    show bg_PetCheap_BreakRoom:
         desaturate
 
     hide sprite_JOY_neutral
@@ -107,7 +107,7 @@ label scene3:
 label scene3_common:
     show sprite_SID_neutral:
         resaturate
-    show bg_PetCheap_FrontDesk:
+    show bg_PetCheap_BreakRoom:
         resaturate
 
     pause 0.6

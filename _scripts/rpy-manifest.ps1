@@ -1,9 +1,16 @@
-$rpy = "game\assets\background\background.rpy"
+# $rpy = "game\assets\background\background.rpy"
+# $extensions = @(
+#     ".png",
+#     ".jpg"
+# )
+# $startwith = "image"
+
+
+$rpy = "game\assets\audio\amb\amb.rpy"
 $extensions = @(
-    ".png",
-    ".jpg"
+    ".ogg"
 )
-$startwith = "image"
+$startwith = "define"
 
 
 $dirpath = [IO.Path]::GetDirectoryName($rpy)
@@ -12,7 +19,7 @@ $lines = @()
 Get-ChildItem -Path $dirpath | ForEach-Object {
     $extension = [IO.Path]::GetExtension($_.Name)
     $ext = ($extensions -Contains $extension)
-    $cont = ($_.Name.Contains('reversed') -Or $_.Name.Contains(' '))
+    $cont = ($_.Name.Contains(' '))  # $_.Name.Contains('reversed') -Or
     Write-Host "$($_.Name) $extension, $ext, $cont"
 
     if ($ext -And (-Not $cont)) {

@@ -1,21 +1,20 @@
 label scene5c:
 
-    play music amb_fireplace loop fadein 0.3
-    show bg_JoyHouse_BedRoom
+    play music amb_fireplace loop fadein 0.3 volume 0.2
+    show bg_JoyHouse_BedRoom:
+        desaturate
 
     show sprite_JOY_neutral with moveinleft
 
     JOY "What a long day..."
 
+    show sprite_JOY_neutral:
+        linear 0.4 xalign 0.8
     JOY "It's one crazy client after another out here!"
 
-    show sprite_JOY_neutral:
-        moveright
-
-    show sprite_JOY_sad at align_right_human
-
-    pause 0.5
-
+    hide sprite_JOY_neutral
+    show sprite_JOY_sad:
+        yalign 1.0 xalign 0.8
     JOY "The clients are crazy right? Or am I the crazy one?"
 
     menu:
@@ -33,21 +32,26 @@ label scene5c:
 
         "We're all going crazy.":
             $ choice = 'all'
-            JOY "Sure, sure-- and I'm alice in Wonderland out here."
+            JOY "Sure, sure-- and I'm Alice in Wonderland out here."
             jump scene5c_next
 
 label scene5c_next:
 
-    show sprite_JOY_fear at align_right_human
-
+    hide sprite_JOY_sad
+    show sprite_JOY_fear:
+        yalign 1.0 xalign 0.8
+        flip_face_right_to_left
     JOY "UGH! I shouldn't have snapped like that!"
 
+    show sprite_JOY_fear:
+        linear 1.0 yalign 1.0 xalign 0.2
     JOY "I yelled at a client and I'm supposed to be a professional..."
 
-    show sprite_JOY_fear with moveinleft
-
-    show sprite_JOY_sad at align_left_human
-
+    hide sprite_JOY_fear
+    show sprite_JOY_sad:
+        xzoom -1.0
+        yalign 1.0 xalign 0.2
+        flip_face_left_to_right
     JOY "Did I mess up?"
 
     menu:
@@ -65,23 +69,36 @@ label scene5c_next:
 
 label scene5c_next2:
 
+    hide sprite_JOY_sad
+    show sprite_JOY_tired:
+        yalign 1.0 xalign 0.2
     JOY "*sigh*"
 
+    show sprite_JOY_tired:
+        linear 1.0 yalign 1.0 xalign 0.8
     JOY "Well... at least we got that toy out of GRAVY's throat alright."
 
-    show sprite_JOY_sad:
-        moveright
-
-    show sprite_JOY_neutral at align_right_human
-
+    hide sprite_JOY_tired
+    show sprite_JOY_neutral:
+        yalign 1.0 xalign 0.8
+        flip_face_right_to_left
     JOY "I'll just try harder next time."
 
+    hide sprite_JOY_neutral
+    show sprite_JOY_angry:
+        yalign 1.0 xalign 0.8
+        flip_left_instant
+        flip_face_left_to_right
     JOY "Even if the people who own the pets are crazy..."
 
+    hide sprite_JOY_angry
+    show sprite_JOY_happy:
+        yalign 1.0 xalign 0.8
     JOY "I still love animals."
 
-    show sprite_JOY_angry at align_right_human
-
+    hide sprite_JOY_happy
+    show sprite_JOY_angry:
+        yalign 1.0 xalign 0.8
     JOY "I will keep it up even if work itself sucks!"
 
     menu:
@@ -93,13 +110,12 @@ label scene5c_next2:
 
 label scene5c_next3:
 
-    show sprite_JOY_neutral:
-        linear 0.6 xalign 0.5
-
-    JOY "Even if every pet owner is a psycho owner!"
+    show sprite_JOY_angry:
+        flip_face_right_to_left
+    JOY "Even if every pet owner is a psycho!"
 
     menu:
-        JOY "Even if every pet owner is a psycho owner! {fast}"  # FEATURE: view prior dialogue
+        JOY "Even if every pet owner is a psycho! {fast}"  # FEATURE: view prior dialogue
 
         "Because this is how we can contribute!":
             $ choice = 'contribute'
@@ -107,13 +123,15 @@ label scene5c_next3:
 
 label scene5c_last:
 
-    show sprite_JOY_happy at center
-
+    hide sprite_JOY_angry
+    show sprite_JOY_happy:
+        flip_left_instant
+        yalign 1.0 xalign 0.8
+        linear 1.0 xalign 0.5
     JOY "Yeah. Let's save the animals!"
 
     menu:
         JOY "Yeah. Let's save the animals! {fast}"  # FEATURE: view prior dialogue
 
         "Yes!":
-            $ choice = 'yes'
             call animate_bg_fadetoblack(delay=0.5)
