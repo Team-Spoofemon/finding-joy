@@ -1,25 +1,24 @@
 label scene5b:
 
     play music amb_fireplace loop fadein 0.3 volume 0.2
-    show bg_JoyHouse_BedRoom
+    show bg_JoyHouse_BedRoom:
+        desaturate
 
     show sprite_JOY_happy with moveinleft
 
     JOY "Wow, I had a really good time..."
 
+    show sprite_JOY_happy:
+        linear 0.4 xalign 0.8
     JOY "Kinda crazy I'm even allowed a good time these days."
 
+    hide sprite_JOY_neutral
     show sprite_JOY_happy:
-        moveright
-
-    show sprite_JOY_sad at align_right_human
-
-    pause 0.5
-
-    JOY "Do I deserve this? Do I deserve even a little happy?"
+        yalign 1.0 xalign 0.8
+    JOY "Do I deserve this? Do I deserve even a little happiness?"
 
     menu:
-        JOY "Do I deserve this? Do I deserve even a little happy? {fast}"  # FEATURE: view prior dialogue
+        JOY "Do I deserve this? Do I deserve even a little happiness? {fast}"  # FEATURE: view prior dialogue
 
         "It's too good to be true.":
             $ choice = 'true'
@@ -33,21 +32,26 @@ label scene5b:
 
         "Happiness is a fickle thing.":
             $ choice = 'fickle'
-            JOY "I'd like to believe I can find happy though."
+            JOY "I'd like to believe I can find happiness though."
             jump scene5b_next
 
 label scene5b_next:
 
-    show sprite_JOY_fear at align_right_human
-
+    hide sprite_JOY_happy
+    show sprite_JOY_fear:
+        yalign 1.0 xalign 0.8
+        flip_face_right_to_left
     JOY "UGH! I feel like I blew it!"
 
+    show sprite_JOY_fear:
+        linear 1.0 yalign 1.0 xalign 0.2
     JOY "I said too much and told FAITH I've got these doubts..."
 
-    show sprite_JOY_fear with moveinleft
-
-    show sprite_JOY_sad at align_left_human
-
+    hide sprite_JOY_fear
+    show sprite_JOY_sad:
+        xzoom -1.0
+        yalign 1.0 xalign 0.2
+        flip_face_left_to_right
     JOY "Did I mess up?"
 
     menu:
@@ -65,23 +69,36 @@ label scene5b_next:
 
 label scene5b_next2:
 
+    hide sprite_JOY_sad
+    show sprite_JOY_tired:
+        yalign 1.0 xalign 0.2
     JOY "*sigh*"
 
+    show sprite_JOY_tired:
+        linear 1.0 yalign 1.0 xalign 0.8
     JOY "But FAITH was right, regardless of how coffee went."
 
-    show sprite_JOY_sad:
-        moveright
-
-    show sprite_JOY_neutral at align_right_human
-
+    hide sprite_JOY_tired
+    show sprite_JOY_neutral:
+        yalign 1.0 xalign 0.8
+        flip_face_right_to_left
     JOY "Even if I have self-doubts..."
 
+    hide sprite_JOY_neutral
+    show sprite_JOY_angry:
+        yalign 1.0 xalign 0.8
+        flip_left_instant
+        flip_face_left_to_right
     JOY "I am passionate."
 
+    hide sprite_JOY_angry
+    show sprite_JOY_happy:
+        yalign 1.0 xalign 0.8
     JOY "I love animals."
 
-    show sprite_JOY_angry at align_right_human
-
+    hide sprite_JOY_happy
+    show sprite_JOY_angry:
+        yalign 1.0 xalign 0.8
     JOY "I will keep it up even if work itself sucks!"
 
     menu:
@@ -93,9 +110,10 @@ label scene5b_next2:
 
 label scene5b_next3:
 
+    hide sprite_JOY_angry
     show sprite_JOY_neutral:
-        linear 0.6 xalign 0.5
-
+        yalign 1.0 xalign 0.8
+        flip_face_right_to_left
     JOY "Even if the world is ending around us!"
 
     menu:
@@ -107,13 +125,15 @@ label scene5b_next3:
 
 label scene5b_last:
 
-    show sprite_JOY_happy at center
-
+    hide sprite_JOY_neutral
+    show sprite_JOY_happy:
+        flip_left_instant
+        yalign 1.0 xalign 0.8
+        linear 1.0 xalign 0.5
     JOY "Yeah. This is how I will fix the world."
 
     menu:
         JOY "Yeah. This is how I will fix the world. {fast}"  # FEATURE: view prior dialogue
 
         "Yes!":
-            $ choice = 'yes'
             call animate_bg_fadetoblack(delay=0.5)

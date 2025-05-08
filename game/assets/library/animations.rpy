@@ -83,23 +83,6 @@ transform move_right_of_right(xalign_=0.8, yalign_=1.0):
     yalign yalign_
 
 
-transform flip_left:
-    xzoom -1.0 yzoom 1.0
-
-
-transform flip_right:
-    xzoom 1.0 yzoom 1.0
-
-
-transform bounce(multiply=1):
-    # https://lemmasoft.renai.us/forums/viewtopic.php?p=477118&sid=4edc0c5c93d5e757116c9a1b6009e7cf#p477118
-    easein  .05 yoffset -10 * multiply
-    easeout .05 yoffset 0 * multiply
-    easein  .05 yoffset -4 * multiply
-    easeout .05 yoffset 0 * multiply
-    yoffset 0
-
-
 transform flip_left_instant:
     # https://www.renpy.org/doc/html/transforms.html#warpers
     # https://easings.net/
@@ -110,6 +93,15 @@ transform flip_right_instant:
     # https://www.renpy.org/doc/html/transforms.html#warpers
     # https://easings.net/
     xzoom 1.0 yzoom 1.0
+
+
+transform bounce(multiply=1):
+    # https://lemmasoft.renai.us/forums/viewtopic.php?p=477118&sid=4edc0c5c93d5e757116c9a1b6009e7cf#p477118
+    easein  .05 yoffset -10 * multiply
+    easeout .05 yoffset 0 * multiply
+    easein  .05 yoffset -4 * multiply
+    easeout .05 yoffset 0 * multiply
+    yoffset 0
 
 
 transform flip_face_right_to_left:

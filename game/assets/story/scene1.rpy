@@ -29,14 +29,14 @@ label scene1:
             hide sprite_JOY_happy
             show sprite_JOY_neutral:
                 align_left_human
-                flip_left
+                flip_left_instant
             JOY "We know enough. Let's do this."
 
         "We'll play it slow?":
             hide sprite_JOY_happy
             show sprite_JOY_neutral:
                 align_left_human
-                flip_left
+                flip_left_instant
             JOY "You're right. Gotta pace myself."
 
     # *stage:* JOY moves to the left.
@@ -48,7 +48,7 @@ label scene1:
     if washappy:
         show sprite_JOY_neutral:
             align_left_human
-            flip_left
+            flip_left_instant
     hide sprite_JOY_happy
     JOY "Looks like we've got the first client already?"
 
@@ -80,7 +80,7 @@ label scene1:
     hide sprite_KELLY_angry
     show sprite_KELLY_happy:
         align_right_human
-        flip_left
+        flip_left_instant
     show sprite_KELLY_happy:
         align_right_human
         flip_face_left_to_right
@@ -214,7 +214,7 @@ label scene1:
     hide sprite_KELLY_angry
     show sprite_KELLY_happy:
         align_right_human
-        flip_left
+        flip_left_instant
     show sprite_KELLY_happy:
         align_right_human
         flip_face_left_to_right
@@ -238,7 +238,7 @@ label scene1:
     hide sprite_KELLY_angry
     show sprite_KELLY_happy:
         align_right_human
-        flip_left
+        flip_left_instant
     show sprite_KELLY_happy:
         align_right_human
         flip_face_left_to_right
