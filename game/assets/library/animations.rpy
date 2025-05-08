@@ -11,6 +11,14 @@ transform exit_left:
     linear 1.0 xpos -0.5
 
 
+transform align_y_06:
+    yalign 0.6
+
+
+transform align_x_04:
+    xalign 0.4
+
+
 transform align_left_human:
     # xpos 0.1
     xalign 0.1
@@ -29,16 +37,46 @@ transform align_right_human:
     yalign 1.0
 
 
+transform move_align_left_human:
+    # xpos 0.1
+    linear 0.4 xalign 0.1
+    yalign 1.0
+
+
+transform move_align_center_human:
+    # xpos 0.1
+    linear 0.4 xalign 0.45
+    yalign 1.0
+
+
+transform move_align_right_human:
+    # xpos 0.2
+    linear 0.4 xalign 0.9
+    yalign 1.0
+
+
 transform in_front_of_left:
     # xpos 0.2
     xalign 0.3
     yalign 1.0
 
 
-transform move_in_front_of_left:
+transform move_in_front_of_left(xalign_=0.3):
     # xpos 0.2
-    linear 1.0 xalign 0.3
+    linear 1.0 xalign xalign_
     yalign 1.0
+
+
+transform right_of_right:
+    # xpos 0.2
+    xalign 0.8
+    yalign 1.0
+
+
+transform move_right_of_right(xalign_=0.8, yalign_=1.0):
+    # xpos 0.2
+    linear 1.0 xalign xalign_
+    yalign yalign_
 
 
 transform flip_left:
@@ -56,6 +94,18 @@ transform bounce(multiply=1):
     easein  .05 yoffset -4 * multiply
     easeout .05 yoffset 0 * multiply
     yoffset 0
+
+
+transform flip_left_instant:
+    # https://www.renpy.org/doc/html/transforms.html#warpers
+    # https://easings.net/
+    xzoom -1.0 yzoom 1.0
+
+
+transform flip_right_instant:
+    # https://www.renpy.org/doc/html/transforms.html#warpers
+    # https://easings.net/
+    xzoom 1.0 yzoom 1.0
 
 
 transform flip_face_right_to_left:

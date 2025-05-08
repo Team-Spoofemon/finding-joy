@@ -26,7 +26,7 @@ label scene5b:
             JOY "Maybe, but I do want to believe it is true."
             jump scene5b_next
 
-        "Why not? You've worked hard":
+        "Why not? You've worked hard!":
             $ choice = 'worked'
             JOY "I want to believe that."
             jump scene5b_next

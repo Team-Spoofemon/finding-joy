@@ -11,17 +11,17 @@ label scene4c:
     menu:
         JOY "I'm not really into doing that, right? Or coworkers, right? {fast}"  # FEATURE: view prior dialogue
 
-        "Or clients, for that matter":
+        "Or clients, for that matter!":
             JOY "FAITH was charming, but I do like keeping work and play seperate."
             show sprite_JOY_happy
             jump scene4c_common
 
-        "The right person will come along1":
+        "The right person will come along!1":
             JOY "We've been telling ourselves that for years, Joy..."
             show sprite_JOY_sad
             jump scene4c_common
 
-        "We all die alone, you see":
+        "We all die alone, you see...":
             JOY "Okay, I am really in some kind of state! Bad intrusive thoughts!"
             show sprite_JOY_angry
             jump scene4c_common

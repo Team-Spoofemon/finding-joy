@@ -12,7 +12,7 @@ $lines = @()
 Get-ChildItem -Path $dirpath | ForEach-Object {
     $extension = [IO.Path]::GetExtension($_.Name)
     $ext = ($extensions -Contains $extension)
-    $cont = ($_.Name.Contains('reversed') -Or $_.Name.Contains(' '))
+    $cont = ($_.Name.Contains(' '))  # $_.Name.Contains('reversed') -Or
     Write-Host "$($_.Name) $extension, $ext, $cont"
 
     if ($ext -And (-Not $cont)) {

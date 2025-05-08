@@ -105,12 +105,12 @@ function Convert-Ogg {
                 $generated += @("$filename.ogg")
             }
 
-            if ($Force -or (-Not (Test-Path -Path "$filename (reversed).ogg" -ErrorAction SilentlyContinue))) {
-                $cmd = "ffmpeg -y -i '$($_.Name)' -af 'areverse' '$filename (reversed).ogg'"
+            if ($Force -or (-Not (Test-Path -Path "$($filename)_reversed_.ogg" -ErrorAction SilentlyContinue))) {
+                $cmd = "ffmpeg -y -i '$($_.Name)' -af 'areverse' '$($filename)_reversed_.ogg'"
                 Write-Host -ForegroundColor Green $cmd
                 Invoke-Expression $cmd
 
-                $generated += @("$filename (reversed).ogg")
+                $generated += @("$($filename)_reversed_.ogg")
             }
         }
     }
