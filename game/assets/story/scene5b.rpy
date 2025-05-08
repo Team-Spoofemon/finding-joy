@@ -94,7 +94,7 @@ label scene5b_next2:
 label scene5b_next3:
 
     show sprite_JOY_neutral:
-        linear 0.6 align 0.5
+        linear 0.6 xalign 0.5
 
     JOY "Even if the world is ending around us!"
 

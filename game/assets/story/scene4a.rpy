@@ -1,6 +1,7 @@
 # Scene 4a - Joy and Sid's Coffee Shop Date
 
 label scene4a:
+    play music amb_coffeeshop loop fadein 0.3
 
     scene black with fade
     $ renpy.pause (1.0, hard=True)

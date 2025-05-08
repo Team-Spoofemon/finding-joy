@@ -1,6 +1,7 @@
 # Scene 4b: JOY and FAITH, coffee shop, date scene, guaranteed ends well
 
 label scene4b:
+    play music amb_coffeeshop loop fadein 0.3
     $ emotion = 0
 
     scene black with fade
