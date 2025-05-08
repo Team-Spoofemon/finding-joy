@@ -10,9 +10,16 @@ transform exit_right:
 transform exit_left:
     linear 1.0 xpos -0.5
 
+
 transform align_left_human:
     # xpos 0.1
     xalign 0.1
+    yalign 1.0
+
+
+transform align_center_human:
+    # xpos 0.1
+    xalign 0.45
     yalign 1.0
 
 
@@ -20,6 +27,35 @@ transform align_right_human:
     # xpos 0.2
     xalign 0.9
     yalign 1.0
+
+
+transform in_front_of_left:
+    # xpos 0.2
+    xalign 0.3
+    yalign 1.0
+
+
+transform move_in_front_of_left:
+    # xpos 0.2
+    linear 1.0 xalign 0.3
+    yalign 1.0
+
+
+transform flip_left:
+    xzoom -1.0 yzoom 1.0
+
+
+transform flip_right:
+    xzoom 1.0 yzoom 1.0
+
+
+transform bounce(multiply=1):
+    # https://lemmasoft.renai.us/forums/viewtopic.php?p=477118&sid=4edc0c5c93d5e757116c9a1b6009e7cf#p477118
+    easein  .05 yoffset -10 * multiply
+    easeout .05 yoffset 0 * multiply
+    easein  .05 yoffset -4 * multiply
+    easeout .05 yoffset 0 * multiply
+    yoffset 0
 
 
 transform flip_face_right_to_left:
