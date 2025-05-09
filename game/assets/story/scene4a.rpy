@@ -23,7 +23,7 @@ label scene4a:
         flip_face_left_to_right
 
     hide sprite_SID_neutral
-    show sprite_SID_angry:
+    show sprite_SID_neutral:
         align_right_human
 
     SID "Man, the coffee is pricey and they still want tips?"
@@ -38,7 +38,7 @@ label scene4a:
 
     JOY "PetCheap is doing fine, but we're not. Tips would be nice, right?"
 
-    hide sprite_SID_angry
+    hide sprite_SID_neutral
     show sprite_SID_neutral:
         align_right_human
 
@@ -55,7 +55,7 @@ label scene4a:
     JOY "The waste and abuse, huh?"
 
     hide sprite_SID_neutral
-    show sprite_SID_happy:
+    show sprite_SID_neutral:
         align_right_human
 
     SID "The right person is in charge! Good things are finally happening!"
@@ -74,8 +74,8 @@ label scene4a:
 
     JOY "That's one way of looking at it."
 
-    hide sprite_SID_happy
-    show sprite_SID_thinking:
+    hide sprite_SID_neutral
+    show sprite_SID_neutral:
         align_right_human
 
     SID "You're interested in this kind of stuff?"
@@ -86,8 +86,8 @@ label scene4a:
 
     JOY "Of course. What happens over there affects over here."
 
-    hide sprite_SID_thinking
-    show sprite_SID_happy:
+    hide sprite_SID_neutral
+    show sprite_SID_neutral:
         align_right_human
 
     SID "Sure, sure--but isn't this nice? We could do this every day, just you and me!"
@@ -106,7 +106,7 @@ label scene4a:
 
     JOY "I mean it's a tempting offer, but I'll have to pass."
 
-    hide sprite_SID_happy
+    hide sprite_SID_neutral
     show sprite_SID_neutral:
         align_right_human
 
@@ -115,7 +115,7 @@ label scene4a:
     SID "What do you mean?"
 
     hide sprite_SID_neutral
-    show sprite_SID_angry:
+    show sprite_SID_neutral:
         align_right_human
 
     SID "After I paid for coffee, what do you mean \"you'll pass\"?"
@@ -145,7 +145,7 @@ label scene4a:
     SID "What? Are you just too good for me or something?"
 
     #change saturation to talk to WOE
-    show sprite_SID_angry:
+    show sprite_SID_neutral:
         desaturate
     show bg_CoffeeShop:
         desaturate
@@ -164,7 +164,7 @@ menu:
 
 label Scene4a_a:
     #change saturation back
-    show sprite_SID_angry:
+    show sprite_SID_neutral:
         resaturate
     show bg_CoffeeShop:
         resaturate
@@ -181,8 +181,8 @@ label Scene4a_a:
 
     JOY "Not knowing how things work isn't sexy."
 
-    hide sprite_SID_angry
-    show sprite_SID_sad:
+    hide sprite_SID_neutral
+    show sprite_SID_neutral:
         align_right_human
 
     hide sprite_JOY_happy
@@ -198,7 +198,7 @@ label Scene4a_a:
 
 label Scene4a_b:
     #change saturation back
-    show sprite_SID_angry:
+    show sprite_SID_neutral:
         resaturate
     show bg_CoffeeShop:
         resaturate
@@ -213,8 +213,8 @@ label Scene4a_b:
 
     SID "What?"
 
-    hide sprite_SID_angry
-    show sprite_SID_sad:
+    hide sprite_SID_neutral
+    show sprite_SID_neutral:
         align_right_human
 
     hide sprite_JOY_sad
@@ -230,7 +230,7 @@ label Scene4a_b:
 
 label Scene4a_c:
     #change saturation back
-    show sprite_SID_angry:
+    show sprite_SID_neutral:
         resaturate
     show bg_CoffeeShop:
         resaturate
@@ -249,16 +249,16 @@ label Scene4a_c:
 
     JOY "And one billion just got cancelled."
 
-    hide sprite_SID_angry
-    show sprite_SID_sad:
+    hide sprite_SID_neutral
+    show sprite_SID_neutral:
         align_right_human
 
     SID "Wait no... PetCheap doesn't-!"
 
     JOY "We're the \"waste and abuse.\""
 
-    hide sprite_SID_sad
-    show sprite_SID_angry:
+    hide sprite_SID_neutral
+    show sprite_SID_neutral:
         align_right_human
 
     SID "Wait no... You're lying!"
@@ -269,8 +269,8 @@ label Scene4a_c:
 
     JOY "I wonder when I'll see your ass at unemployment with me?"
 
-    hide sprite_SID_angry
-    show sprite_SID_sad:
+    hide sprite_SID_neutral
+    show sprite_SID_neutral:
         align_right_human
 
     SID "They're only going after criminals! Not me!"
@@ -287,16 +287,16 @@ label Scene4a_c:
     jump Scene4a_common
 
 label Scene4a_common:
-    hide sprite_SID_sad
-    show sprite_SID_angry:
+    hide sprite_SID_neutral
+    show sprite_SID_neutral:
         align_right_human
 
     SID "So now I'm stuck with the bill?"
 
     SID "Thanks a lot, feminism! Where's the equity here?"
 
-    hide sprite_SID_angry
-    show sprite_SID_sad:
+    hide sprite_SID_neutral
+    show sprite_SID_neutral:
         align_right_human
 
     SID "This is some dee-ee-aye bullshit!"
@@ -309,15 +309,15 @@ label Scene4a_common:
 
     SHOPKEEPER "Excuse me sir?"
 
-    hide sprite_SID_sad
-    show sprite_SID_angry:
+    hide sprite_SID_neutral
+    show sprite_SID_neutral:
         align_right_human
 
     SID "What?"
 
     SHOPKEEPER "The kind lady who just left gave us five dollars cash."
 
-    hide sprite_SID_angry
+    hide sprite_SID_neutral
     show sprite_SID_neutral:
         align_right_human
 
@@ -326,7 +326,7 @@ label Scene4a_common:
     SHOPKEEPER "Would you like your refund as credits or sent to your card?"
 
     hide sprite_SID_neutral
-    show sprite_SID_sad:
+    show sprite_SID_neutral:
         align_right_human
 
     SID "Card, please."
