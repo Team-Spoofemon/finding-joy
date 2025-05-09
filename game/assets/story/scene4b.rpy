@@ -286,4 +286,4 @@ label scene4b_common:
 
     FAITH "That's what I believe."
 
-    return
+    call animate_bg_fadetoblack(delay=0.2)
