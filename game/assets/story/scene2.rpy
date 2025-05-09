@@ -17,7 +17,7 @@ label scene2:
     menu:
         JOY "Well that was crazy. That was CRAZY. {fast}"  # FEATURE: view prior dialogue
 
-        "The next is going to be a phycopath!":
+        "The next is going to be a psychopath!":
             $ joy_state = 'fear'
             hide sprite_JOY_tired
             show sprite_JOY_fear:
