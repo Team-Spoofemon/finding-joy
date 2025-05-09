@@ -1,3 +1,12 @@
+# assets needed:
+    4a - sid emotions
+# mising
+    - more sound effects
+    - more foley
+    - more animations when characters talk
+    - better animation system for flexibly saying what it is you want to do
+
+
 # New Files To Use:
 - aquarium.mp3
 - bathroom sink.mp3
